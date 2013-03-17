@@ -36,4 +36,4 @@ It is extremely light-weight.
 # Author
 =============================
 mrmrs
-(http://mrmrs.cc)[mrmrs.cc]
+[mrmrs.cc](http://mrmrs.cc)
