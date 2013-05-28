@@ -9,7 +9,7 @@
 /* Mobile
    ========================================================================== */
 
-@media screen and (max-width: 480px) {
+@media screen and ($breakpoint-1-max-width) {
 
 }
 
@@ -18,6 +18,6 @@
 /* Tablet
    ========================================================================== */
 
-@media (min-width:480 ) and (max-width:1024px) {
+@media ($breakpoint-2-min-width) and ($breakpoint-2-max-width) {
 
 }
