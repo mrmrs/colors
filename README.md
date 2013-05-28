@@ -38,7 +38,7 @@ with.
     mnml/
         ├── README.md
         ├── css
-        │   └── i.css                 (8 kb - 2.6kb gzipped)
+        │   └── i.css                 (2 kb minified - 1.2kb gzipped)
         ├── index.html                (386 bytes)
         └── sass                      CSS source
             ├── _normalize.scss
