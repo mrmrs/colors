@@ -61,9 +61,9 @@ rake minify
 ```
 
 # Author
-[MRMRS](http://mrmrs.cc, "Adam Morse - Designer Developer")
+[MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
 
 # License
 This work is licensed under a [Creative Commons Attribution 3.0 Unported
-License](http://creativecommons.org/licenses/by/3.0/, "Creative Commons
+License](http://creativecommons.org/licenses/by/3.0/ "Creative Commons
 License").
