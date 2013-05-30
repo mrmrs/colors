@@ -1,6 +1,6 @@
 # MNML
 
-View the project page at [http://mn-ml.cc]("http://mn-ml.cc", "MNML - A light-weight responsive html5 boilerplate.")
+View the project page at [http://mn-ml.cc](http://mn-ml.cc, "MNML - A light-weight responsive html5 boilerplate.")
 
 MNML is a starting point for responsive HTML5 SASS projects.
 Focused on mobile readability.
