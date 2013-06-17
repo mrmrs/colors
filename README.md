@@ -10,23 +10,18 @@ configurable and extendable.
 * Create a new repo for your project on Github
 * In terminal run 
 ```bash
-    git clone git@github.com:mrmrs/colors.git [yourNewRepoName]
-    cd [yourNewRepoName]
-    git remote rm origin
-    git remote add origin git@github.com:[yourUserName]/[yourNewRepoName].git
-    git remote -v
+git clone git@github.com:mrmrs/colors.git [yourNewRepoName]
 ```
 
-* git remote -v will allow you to check that you have changed the remote origin correctly. The output should look like:
-```bash
-    origin git@github.com:[yourUserName]/[yourNewRepoName].git (fetch)
-    origin  git@github.com:[yourUserName]/[yourNewRepoName].git (push)
+## To use the compiled css
+* Copy css/colors.css to your projects css
+* Include it in the head of your html document
+```html
+<link rel="stylesheet" href="css/colors.css">
 ```
-  
-* Once you add & commit files you are ready to publish run:
-```bash
-git push -u origin master
-```
+
+## To just use the sass variables
+* Copy sass/_colors.scss to your sass folder and include it in your imports. That is all. Plain and simple. 
 
 # What is it?
 
