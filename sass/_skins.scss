@@ -1,0 +1,58 @@
+/* ==========================================================================
+   SKINS
+
+   - Backgrounds
+   - Colors
+     -- Cool
+     -- Warm
+     -- Gray
+
+   ========================================================================== */
+
+/* Backgrounds
+   ========================================================================== */
+
+.bg-aqua {    background-color: $aqua; }
+.bg-black {   background-color: $black; }
+.bg-blue {    background-color: $blue; }
+.bg-fuchsia { background-color: $fuchsia; }
+.bg-green {   background-color: $green; }
+.bg-lime {    background-color: $lime; }
+.bg-maroon {  background-color: $maroon; }
+.bg-navy {    background-color: $navy; }
+.bg-olive {   background-color: $olive; }
+.bg-orange {  background-color: $orange; }
+.bg-purple {  background-color: $purple; }
+.bg-red {     background-color: $red; }
+.bg-silver {  background-color: $silver; }
+.bg-gray {    background-color: $gray; }
+.bg-teal {    background-color: $teal; }
+.bg-white {   background-color: $white; }
+.bg-yellow {  background-color: $yellow; }
+
+
+/* Colors
+   ========================================================================== */
+
+/* Cool */
+.aqua {       color: $aqua; }
+.blue {       color: $blue; }
+.navy {       color: $navy; }
+.teal {       color: $teal; }
+.green {      color: $green; }
+.olive {      color: $olive; }
+.lime {       color: $lime; }
+
+/* Warm */
+.maroon {     color: $maroon; }
+.orange {     color: $orange; }
+.purple {     color: $purple; }
+.red {        color: $red; }
+.yellow {     color: $yellow; }
+.fuchsia {    color: $fuchsia; }
+
+/* Gray Scale */
+.silver {     color: $silver; }
+.gray {       color: $gray; }
+.white {      color: $white; }
+.black {      color: $black; }
