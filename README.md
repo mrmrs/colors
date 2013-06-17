@@ -1,16 +1,16 @@
-# MNML
+# COLORS
 
-View the project page at [http://mn-ml.cc](http://mn-ml.cc "MNML - A light-weight responsive html5 boilerplate.")
+View the project page at [http://colorio.us](http://colorio.us "Colorios: Better colors for the web")
 
-MNML is a starting point for responsive HTML5 SASS projects.
-Focused on mobile readability.
+A nicer set of color defaults. Includes a set of skin classes as well as sass variables. Colors are easily
+configurable and extendable. 
 
 # Getting started
 
 * Create a new repo for your project on Github
 * In terminal run 
 ```bash
-    git clone git@github.com:mrmrs/mnml.git [yourNewRepoName]
+    git clone git@github.com:mrmrs/colors.git [yourNewRepoName]
     cd [yourNewRepoName]
     git remote rm origin
     git remote add origin git@github.com:[yourUserName]/[yourNewRepoName].git
@@ -30,22 +30,24 @@ git push -u origin master
 
 # What is it?
 
-Mostly a bare-bones html5 template with some basic css I start most projects
-with.
+A set of variables and skin classes to use in rapidly developing nicer looking websites. Default colors in browsers look horrible - and they aren't consistent. 
+Think of this as a normalize.css for colors.
+
+Also includes better default link styling.
 
 ## Directory structure
 ```
-    mnml/
+  colors/
         ├── README.md
+        ├── Rakefile
         ├── css
-        │   └── i.css                 (2 kb minified - 1.2kb gzipped)
-        ├── index.html                (386 bytes)
-        └── sass                      CSS source
-            ├── _normalize.scss
-            ├── _grid.scss
-            ├── _type.scss
-            ├── _styles.scss
-            └── i.scss
+        │   └── i.css             (Compiled CSS)
+        ├── index.html 
+        └── sass                  (CSS Source)
+            ├── _colors.scss
+            ├── _skins.scss
+            ├── _links.scss
+            ├── i.scss
 ```
 
 ## Rake tasks

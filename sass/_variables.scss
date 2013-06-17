@@ -1,40 +1,33 @@
 /* ==========================================================================
    VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
    ========================================================================== */
 
-/* Colors
-   ========================================================================== */
+/* Cool */
 
-/* Don't use black */
+$aqua:  #7FDBFF;
+$blue:  #0074D9;
+$navy:  #001F3F;
+$teal:  #39CCCC;
+$green: #2ECC40;
+$olive: #3D9970;
+$lime:  #01FF70;
 
-$near-black:  #111;
-$white: #fff;
+/* Warm */
 
-/* Gray scale */
+$yellow:  #FFDC00;
+$orange:  #FF851B;
+$red:     #FF4136;
+$fuchsia: #F012BE;
+$purple:  #B10DC9;
+$maroon:  #85144B;
 
-$gray-dark:   #222;
-$gray-medium: #999;
-$gray-light:  #eee;
+/* Gray Scale */
 
-   
-/* Type Scale
-   ========================================================================== */
-
-/**
- * 12 & 16 as roots then powers of two.
- */
-
-$font-size-1:64px;
-$font-size-2:48px;
-$font-size-3:32px;
-$font-size-4:24px;
-$font-size-5:16px;
-$font-size-6:12px;
-
-
-/* Mobile */
-$breakpoint-1-max-width:480px;
-
-/* Tablet */
-$breakpoint-2-min-width:480px;
-$breakpoint-2-max-width:1024px;
+$black:  #111;
+$white:  #fff;
+$silver: #ddd;
+$gray:   #aaa;
