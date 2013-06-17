@@ -19,9 +19,13 @@ div {
   color:rgba(255,255,255,0.8);
 }
 
-.title-font {font-family:"acta-poster-swashes";font-size:192px;}
-h1 {float:left;width:100%;text-align:center;;margin-bottom:32px;}
+.title-font {font-family:"acta-poster-swashes";font-size:296px;margin:0;letter-spacing:-.15em;}
 .title {text-transform:uppercase;letter-spacing:.1em;font-weight:100;font-size:24px;}
-hr {border-top:1px dotted #666;outline:0;float:left;width:100%;}
+hr {border-top:1px dotted #666;outline:0;float:left;width:100%;margin:80px 0 60px 0;}
 .center {text-align:center;}
 
+.content {max-width:768px; margin:0 auto; text-align:center;}
+
+
+body {margin:0;}
+.fl {float:left;width:100%;}
