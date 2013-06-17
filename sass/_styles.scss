@@ -1,3 +1,27 @@
 /* ==========================================================================
    Site styles
+  
+   - Colors
    ========================================================================== */
+body {width:100%;}
+
+body {font-family:"proxima-nova", helvetica, arial;}
+div {
+  width:12.5%;
+  height:100%;
+  line-height:144px;
+  text-align:center;
+  float:left;
+  display:block;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  font-size:14px;
+  color:rgba(255,255,255,0.8);
+}
+
+.title-font {font-family:"acta-poster-swashes";font-size:192px;}
+h1 {float:left;width:100%;text-align:center;;margin-bottom:32px;}
+.title {text-transform:uppercase;letter-spacing:.1em;font-weight:100;font-size:24px;}
+hr {border-top:1px dotted #666;outline:0;float:left;width:100%;}
+.center {text-align:center;}
+
