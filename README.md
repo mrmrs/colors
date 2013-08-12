@@ -10,33 +10,17 @@ A simple color palette for the web. Out of the box, the 17 color keywords that C
 don't make for a great color palette. This is a set of sass variables and css classes that should help 
 fix that. 
 
-
-
-
 # Getting started
 
-* Create a new repo for your project on Github
-* In terminal run 
+* Grab a copy of the code by downloading the zip from this page - or cloning the repo.
 ```bash
-git clone git@github.com:mrmrs/colors.git [yourNewRepoName]
+git clone git@github.com:mrmrs/colors.git 
 ```
 
-## To use the compiled css
-* Copy css/colors.css to your projects css
-* Include it in the head of your html document
-```html
-<link rel="stylesheet" href="css/colors.css">
-```
-
-## To just use the sass variables
-* Copy sass/_colors.scss to your sass folder and include it in your imports. That is all. Plain and simple. 
-
-# What is it?
-
-A set of variables and skin classes to use in rapidly developing nicer looking websites. Default colors in browsers look horrible - and they aren't consistent. 
-Think of this as a normalize.css for colors.
-
-Also includes better default link styling.
+# SASS
+The sass source can be found in a folder I creatively titled "Sass"
+Include the three partials to your project like you would any other
+sass files. 
 
 ## Directory structure
 ```
@@ -44,13 +28,14 @@ Also includes better default link styling.
         ├── README.md
         ├── Rakefile
         ├── css
-        │   └── i.css             (Compiled CSS)
-        ├── index.html 
+        │   └── colors.css 
+        │   └── colors.min.css             
+        ├── examples.html 
         └── sass                  (CSS Source)
-            ├── _colors.scss
+            ├── _variables.scss
             ├── _skins.scss
             ├── _links.scss
-            ├── i.scss
+            ├── colors.scss
 ```
 
 ## Rake tasks
