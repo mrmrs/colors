@@ -6,56 +6,41 @@
 
    colorio.us / mrmrs.cc / @mrmrs_
 
-   Table of Contents:
+   TABLE OF CONTENTS
 
-   - Background
+   - Backgrounds
    - Colors
-     -- Cool
-     -- Warm
-     -- Gray
-   - Prettier Link Defaults
+   - Links
 
    ========================================================================== */
- 
-   
 
-/* Backgrounds
-   ========================================================================== */
-
-/* Cool */
-
-.bg-aqua {      background-color: #7fdbff; }
-.bg-blue {      background-color: #0074d9; } 
-.bg-navy {      background-color: #001f3f; } 
-.bg-teal {      background-color: #39cccc; }
-.bg-green {     background-color: #2ecc40; } 
-.bg-olive {     background-color: #3d9970; } 
-.bg-lime {      background-color: #01ff70; } 
-
-/* Warm */
-
-.bg-fuchsia {   background-color: #f012be; } 
-.bg-maroon {    background-color: #85144b; } 
-.bg-purple {    background-color: #b10dc9; }
-.bg-red {       background-color: #ff4136; }
-.bg-orange {    background-color: #ff851b; }
-.bg-yellow {    background-color: #ffdc00; }
-
-/* Gray Scale */
-
-.bg-silver {    background-color: #dddddd; }
-.bg-gray {      background-color: #aaaaaa; }
-.bg-white {     background-color: white; }
+.bg-aqua {      background-color: #7fdbff; } 
 .bg-black {     background-color: #111111; } 
+.bg-blue {      background-color: #0074d9; } 
+.bg-fuchsia {   background-color: #f012be; } 
+.bg-green {     background-color: #2ecc40; } 
+.bg-lime {      background-color: #01ff70; } 
+.bg-maroon {    background-color: #85144b; } 
+.bg-navy {      background-color: #001f3f; } 
+.bg-olive {     background-color: #3d9970; } 
+.bg-orange {    background-color: #ff851b; }
+.bg-purple {    background-color: #b10dc9; } 
+.bg-red {       background-color: #ff4136; } 
+.bg-silver {    background-color: #dddddd; } 
+.bg-gray {      background-color: #aaaaaa; } 
+.bg-teal {      background-color: #39cccc; } 
+.bg-white {     background-color: white; } 
+.bg-yellow {    background-color: #ffdc00; } 
 
-/* Colors 
- ========================================================================= */
+
+/* Colors
+   ========================================================================== */
 
 /* Cool */
 
-.aqua {         color: #7fdbff; } 
+.aqua {         color: #7fdbff; }
 .blue {         color: #0074d9; }
-.navy {         color: #001f3f; }
+.navy {         color: #001f3f; } 
 .teal {         color: #39cccc; }
 .green {        color: #2ecc40; }
 .olive {        color: #3d9970; }
@@ -63,30 +48,30 @@
 
 /* Warm */
 
-.fuchsia {      color: #f012be; }
 .maroon {       color: #85144b; }
-.purple {       color: #b10dc9; }
-.red {          color: #ff4136; }
 .orange {       color: #ff851b; }
+.purple {       color: #b10dc9; }
+.red {          color: #ff4136; } 
 .yellow {       color: #ffdc00; }
+.fuchsia {      color: #f012be; }
 
 /* Gray Scale */
 
 .silver {       color: #dddddd; }
 .gray {         color: #aaaaaa; }
-.white {        color: white; }
+.white {        color: white; } 
 .black {        color: #111111; }
 
-
 /* ==========================================================================
-   PRETTIER LINK DEFAULTS
+   PRETTIER LINKS
    ========================================================================== */
+
 a {
   text-decoration: none;
-  -webkit-transition: color .3s;
-  transition: color .3s; }
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out; }
 
-a:link {        color: #0074d9; }
-a:visited {     color: #b10dc9; }
-a:hover {       color: #7fdbff; }
-a:active {      color: #ff4136; }
+a:link { color: #0074d9; }
+a:visited { color: #b10dc9; }
+a:hover { color: #7fdbff; }
+a:active { color: #ff851b; }

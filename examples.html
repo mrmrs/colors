@@ -10,19 +10,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/colors.css">
     <style>
-      body {font-size:24px;}
-      div {display:inline-block;width:100px;padding:20px 40px;text-align:center;margin-bottom:5px;}
+
+      body {
+        font-size:24px; 
+        color:#333;
+        font-family: "proxima nova", sans-serif;
+        line-height:1.618;
+      }
+
+      div {
+        display:inline-block;
+        width:100px;
+        padding:20px 40px;
+        text-align:center;
+        margin-bottom:5px;
+      }
+
+      .em { 
+        font-style:italic; 
+        font-family:georgia; 
+      }
+      
+      .small { 
+        font-size: 18px;
+        font-weight: 100;
+      }
+
+      .section {margin:80px 0;}
+      .caps {text-transform:uppercase;letter-spacing:0.15em; }
+
     </style>
   </head>
   <body>
-  <header>
-      <h1 class="title-font">
-        Colors
-      </h1>
-      <h2 class="center">Better colors by default.</h2>
-  </header>
-  <section>
-    <h1 class="title">Color Classes</h1>
+  <section class="section">
+    <h1 class="small caps">Color Classes</h1>
     <p>
     <span class="aqua"> aqua</span>
     <span class="blue"> blue</span>
@@ -43,8 +64,8 @@
     <span class="black"> black</span>
     </p>
   </section>
-  <section>
-    <h1 class="title">Background Classes</h1>
+  <section class="section">
+    <h1 class="small caps">Background Classes</h1>
     <div class="bg-aqua"> aqua</div>
     <div class="bg-blue"> blue</div>
     <div class="bg-navy"> navy</div>
@@ -64,10 +85,9 @@
     <div class="bg-black"> black</div>
   </section>
   <section>
-    <h1 class="title">Link Examples</h1>
-    <div>
-      <a href="#" title="link example">Link Example</a>
-    </div>
+    <p>
+      This is an inline <a href="#" title="link example">link example.</a> 
+    </p>
   </section>
   </body>
 </html>
