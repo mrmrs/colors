@@ -1,9 +1,17 @@
 # COLORS
 
+# Better colors for the web.
+
 View the project page at [http://colorio.us](http://colorio.us "Colorios: Better colors for the web")
 
-A nicer set of color defaults. Includes a set of skin classes as well as sass variables. Colors are easily
-configurable and extendable. 
+# What is this?
+
+A simple color palette for the web. Out of the box, the 17 color keywords that CSS has long supported,
+don't make for a great color palette. This is a set of sass variables and css classes that should help 
+fix that. 
+
+
+
 
 # Getting started
 

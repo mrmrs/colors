@@ -1,9 +1,15 @@
 /* ==========================================================================
-   LINKS
+   PRETTIER LINKS
    ========================================================================== */
-   
+
+a { 
+    text-decoration: none; 
+    -webkit-transition: color .3s; 
+    transition: color .3s; 
+  }
 
 a:link    { color: $blue; }
 a:visited { color: $purple; }
 a:hover   { color: $aqua; }
-a:active  { color: $navy; }
+a:active  { color: $red; }
+
