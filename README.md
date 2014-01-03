@@ -2,7 +2,7 @@
 
 # Better colors for the web.
 
-View the project page at [http://colorio.us](http://colorio.us "Colorios: Better colors for the web")
+View the project page at [http://clrs.cc](http://clrs.cc "Colors: Redefining the default web colors.")
 
 # What is this?
 
@@ -56,14 +56,14 @@ rake minify
 ```
 
 # Author
-[MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
+[MRMRS](http://mrmrs.cc "Adam Morse - Designer + Developer in SF")
 
 
 # License
 
 The MIT License (MIT)
 
-Copyright (c) 2013 @mrmrs
+Copyright (c) 2014 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
