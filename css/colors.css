@@ -529,6 +529,24 @@ body {
 .pan {
   padding: 0; }
 
+.pas {
+  padding: .5rem; }
+
+.ptl {
+  padding-top: 2rem; }
+
+.border-top {
+  border-top: 1px solid #dddddd; }
+
+.list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0; }
+
+.list-item {
+  display: inline-block;
+  padding-left: 0; }
+
 .wi-100 {
   width: 50%; }
 
@@ -538,6 +556,12 @@ body {
 .wi-25 {
   width: 25%; }
 
+.wi-clr {
+  width: 6%; }
+
+.wi-blk {
+  width: 10%; }
+
 .db {
   display: block; }
 
@@ -546,6 +570,12 @@ body {
 
 .mega {
   font-size: 3rem; }
+
+.colorssss div {
+  height: .5rem; }
+
+.colorsss div {
+  height: .25rem; }
 
 .f1 {
   font-size: 2rem; }
@@ -582,12 +612,12 @@ body {
   -webkit-transition: background-color .4s ease-in-out; }
 
 .btn:hover {
-  background-color: #0074d9;
+  background-color: #7fdbff;
   transition: background-color .4s ease-in-out;
   -webkit-transition: background-color .4s ease-in-out; }
 
 .btn:active {
-  background-color: #001f3f;
+  background-color: #39cccc;
   transition: background-color .4s ease-in-out;
   -webkit-transition: background-color .4s ease-in-out; }
 
