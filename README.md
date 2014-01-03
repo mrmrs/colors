@@ -9,14 +9,19 @@ View the project page at [http://clrs.cc](http://clrs.cc "Colors: Redefining the
 A simple color palette for the web. Out of the box, the color strings that css provides aren't... the tops.
 This is a set of sass variables and css classes that should help fix that.
 
-# Getting started
+## Getting started
 
 * Grab a copy of the code by downloading the zip from this page - or cloning/forking the repo.
 ```bash
 git clone git@github.com:mrmrs/colors.git
 ```
 
-# SASS
+### Using the css
+Simply copy colors.css to your css direcotry and include the file like so in the head of your html document
+
+``` <link rel="stylesheet" href="css/colors.css"> ```
+
+### Using the Sass
 The sass source can be found in a folder I creatively titled "sass."
 Include any or all of the three partials to your project like you would any other
 sass partials. But just for reference...
@@ -27,20 +32,29 @@ sass partials. But just for reference...
 @import "links";
 ```
 
+### Using the Stylus
+You an also edit the source code as stylus.
+Include, exclude, or modify the partials to your hearts content.
+
 ## Directory structure
 ```
   colors/
         ├── README.md
         ├── Rakefile
+        ├── index.html
         ├── css
         │   └── colors.css
         │   └── colors.min.css
-        ├── examples.html
-        └── sass                  (CSS Source)
+        ├── sass                  (CSS Source)
             ├── _variables.scss
             ├── _skins.scss
             ├── _links.scss
             ├── colors.scss
+        ├── stylus                (CSS Source)
+            ├── variables.styl
+            ├── skins.styl
+            ├── links.styl
+            ├── colors.styl
 ```
 
 ## Rake tasks
