@@ -13,13 +13,23 @@ body { font-family: avenir, 'avenir next'; }
 .tc { text-align: center; }
 .man { margin: 0; }
 .pan { padding: 0; }
-
+.pas { padding: .5rem; }
+.ptl { padding-top: 2rem; }
+ .border-top { border-top: 1px solid $silver; }
+ .list { list-style: none; margin-left: 0; padding-left: 0;}
+ .list-item { display: inline-block; padding-left: 0; }
 .wi-100 { width: 50%; }
 .wi-50 { width: 50%; }
 .wi-25 { width: 25%; }
+.wi-clr { width: 6%; }
+.wi-blk { width: 10%; }
 .db { display: block; }
 .dib { display: inline-block; }
 .mega { font-size: 3rem; }
+.colorssss div {
+  height:.5rem;
+}
+.colorsss div { height: .25rem; }
 .f1 { font-size: 2rem; }
 .f3 { font-size: 1rem; }
 .lh-copy { line-height:1.6; }
@@ -29,8 +39,8 @@ body { font-family: avenir, 'avenir next'; }
 .thin { font-weight: 100; }
 .title { text-transform: uppercase; letter-spacing: .2em; }
 .btn { display: inline-block; white-space: nowrap; padding: 1rem 1.5rem; border-radius: 3px; margin-bottom: .5rem; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out;}
-.btn:hover { background-color: $blue; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
-.btn:active { background-color: $navy; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
+.btn:hover { background-color: $aqua; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
+.btn:active { background-color: $teal; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
 .lnk { text-decoration: none; }
 
 .cf:before,
