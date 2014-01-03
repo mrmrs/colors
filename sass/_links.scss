@@ -1,6 +1,4 @@
-/* ==========================================================================
-   PRETTIER LINKS
-   ========================================================================== */
+/* PRETTIER LINKS */
 
 a {
     text-decoration:    none;
@@ -8,8 +6,25 @@ a {
     transition:         color .3s ease-in-out;
   }
 
-a:link    { color: $blue; }
-a:visited { color: $purple; }
-a:hover   { color: $aqua; }
-a:active  { color: $orange; }
+a:link    {
+  color: $blue;
+  -webkit-transition: color .3s ease-in-out;
+  transition:         color .3s ease-in-out;
+}
+
+a:visited {
+  color: $purple;
+}
+
+a:hover   {
+  color: $aqua;
+  -webkit-transition: color .3s ease-in-out;
+  transition:         color .3s ease-in-out;
+}
+
+a:active  {
+  color: $orange;
+  -webkit-transition: color .3s ease-in-out;
+  transition:         color .3s ease-in-out;
+}
 
