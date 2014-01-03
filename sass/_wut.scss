@@ -2,17 +2,19 @@ body { font-family: avenir, 'avenir next'; }
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
+.serif { font-family: georgia, serif; }
 
-.pvl { padding: 2rem 1rem; }
+.pvl { padding: 1.25rem 1rem; }
 .pvxl { padding: 4rem 1rem; }
 .mtl { margin-top: 2rem; }
+.mbs { margin-bottom: .5rem; }
 .tr { text-align: right; }
 .tc { text-align: center; }
 .man { margin: 0; }
 .pan { padding: 0; }
 
 .wi-50 { width: 50%; }
-
+.db { display: block; }
 .mega { font-size: 3rem; }
 .f1 { font-size: 2rem; }
 .f3 { font-size: 1rem; }
@@ -22,6 +24,8 @@ body { font-family: avenir, 'avenir next'; }
 .fl { float: left; }
 .thin { font-weight: 100; }
 .title { text-transform: uppercase; letter-spacing: .2em; }
+.btn { padding: 1rem 2rem; border-radius: 3px; }
+.lnk { text-decoration: none; }
 
 .cf:before,
 .cf:after {
