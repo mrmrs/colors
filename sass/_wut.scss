@@ -5,6 +5,7 @@ body { font-family: avenir, 'avenir next'; }
 .serif { font-family: georgia, serif; }
 
 .pvl { padding: 1.25rem 1rem; }
+.pvs { padding: 0rem .75rem; }
 .pvxl { padding: 4rem 1rem; }
 .mtl { margin-top: 2rem; }
 .mbs { margin-bottom: .5rem; }
@@ -13,8 +14,11 @@ body { font-family: avenir, 'avenir next'; }
 .man { margin: 0; }
 .pan { padding: 0; }
 
+.wi-100 { width: 50%; }
 .wi-50 { width: 50%; }
+.wi-25 { width: 25%; }
 .db { display: block; }
+.dib { display: inline-block; }
 .mega { font-size: 3rem; }
 .f1 { font-size: 2rem; }
 .f3 { font-size: 1rem; }
@@ -24,7 +28,9 @@ body { font-family: avenir, 'avenir next'; }
 .fl { float: left; }
 .thin { font-weight: 100; }
 .title { text-transform: uppercase; letter-spacing: .2em; }
-.btn { padding: 1rem 2rem; border-radius: 3px; }
+.btn { display: inline-block; white-space: nowrap; padding: 1rem 1.5rem; border-radius: 3px; margin-bottom: .5rem; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out;}
+.btn:hover { background-color: $blue; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
+.btn:active { background-color: $navy; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
 .lnk { text-decoration: none; }
 
 .cf:before,
