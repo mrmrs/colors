@@ -505,6 +505,10 @@ body {
 .pvl {
   padding: 1.25rem 1rem; }
 
+.pvfl {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
 .pvs {
   padding: 0rem .75rem; }
 
