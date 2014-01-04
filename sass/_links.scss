@@ -1,30 +1,30 @@
 /* PRETTIER LINKS */
 
+@mixin link-transition() {
+  -webkit-transition: color .3s ease-in-out;
+          transition: color .3s ease-in-out;
+}
+
 a {
-    text-decoration:    none;
-    -webkit-transition: color .3s ease-in-out;
-    transition:         color .3s ease-in-out;
+  @include link-transition;
+  text-decoration:    none;
+
+  &:link {
+    @include link-transition;
+    color: $blue;
   }
 
-a:link    {
-  color: $blue;
-  -webkit-transition: color .3s ease-in-out;
-  transition:         color .3s ease-in-out;
-}
+  &:visited {
+    color: $purple;
+  }
 
-a:visited {
-  color: $purple;
-}
+  &:hover {
+    @include link-transition;
+    color: $aqua;
+  }
 
-a:hover   {
-  color: $aqua;
-  -webkit-transition: color .3s ease-in-out;
-  transition:         color .3s ease-in-out;
+  &:active {
+    @include link-transition;
+    color: $orange;
+  }
 }
-
-a:active  {
-  color: $orange;
-  -webkit-transition: color .3s ease-in-out;
-  transition:         color .3s ease-in-out;
-}
-
