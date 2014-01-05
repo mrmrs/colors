@@ -2,7 +2,7 @@
    ========================================================================== */
 
 .bg-aqua {    background-color:#7FDBFF;}
-.bg-black {   background-color:black;}
+.bg-black {   background-color:$black;}
 .bg-blue {    background-color:#0074D9;}
 .bg-fuchsia { background-color:#F012BE;}
 .bg-green {   background-color:#2ECC40;}
@@ -16,7 +16,7 @@
 .bg-silver {  background-color:#ddd;}
 .bg-gray {    background-color:#aaa;}
 .bg-teal {    background-color:#39CCCC;}
-.bg-white {   background-color:white;}
+.bg-white {   background-color:$white;}
 .bg-yellow {  background-color:#FFDC00;}
 
 
@@ -44,8 +44,8 @@
 /* Gray Scale */
 .silver {   color:#ddd;}
 .gray {     color:#aaa;}
-.white {    color:white;}
-.black {    color:black;}
+.white {    color:$white;}
+.black {    color:$black;}
 
 
 
