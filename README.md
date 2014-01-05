@@ -17,7 +17,7 @@ git clone git@github.com:mrmrs/colors.git
 ```
 
 ### Using the css
-Simply copy colors.css to your css direcotry and include the file like so in the head of your html document
+Simply copy colors.css to your css directory and include the file like so in the head of your html document
 
 ``` <link rel="stylesheet" href="css/colors.css"> ```
 
