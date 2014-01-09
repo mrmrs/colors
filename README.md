@@ -45,6 +45,11 @@ Include, exclude, or modify the partials to your hearts content.
         ├── css
         │   └── colors.css
         │   └── colors.min.css
+        ├── less                  (CSS Source)
+            ├── _variables.less
+            ├── _skins.less
+            ├── _links.less
+            ├── colors.less
         ├── sass                  (CSS Source)
             ├── _variables.scss
             ├── _skins.scss
