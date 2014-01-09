@@ -70,55 +70,72 @@
 
 /* Colors */
 .navy {
-  color: #001f3f; }
+  color: #001f3f;
+  border-color: #001f3f; }
 
 .blue {
-  color: #0074d9; }
+  color: #0074d9;
+  border-color: #0074d9; }
 
 .aqua {
-  color: #7fdbff; }
+  color: #7fdbff;
+  border-color: #7fdbff; }
 
 .teal {
-  color: #39cccc; }
+  color: #39cccc;
+  border-color: #39cccc; }
 
 .olive {
-  color: #3d9970; }
+  color: #3d9970;
+  border-color: #3d9970; }
 
 .green {
-  color: #2ecc40; }
+  color: #2ecc40;
+  border-color: #2ecc40; }
 
 .lime {
-  color: #01ff70; }
+  color: #01ff70;
+  border-color: #01ff70; }
 
 .yellow {
-  color: #ffdc00; }
+  color: #ffdc00;
+  border-color: #ffdc00; }
 
 .orange {
-  color: #ff851b; }
+  color: #ff851b;
+  border-color: #ff851b; }
 
 .red {
-  color: #ff4136; }
+  color: #ff4136;
+  border-color: #ff4136; }
 
 .fuchsia {
-  color: #f012be; }
+  color: #f012be;
+  border-color: #f012be; }
 
 .purple {
-  color: #b10dc9; }
+  color: #b10dc9;
+  border-color: #b10dc9; }
 
 .maroon {
-  color: #85144b; }
+  color: #85144b;
+  border-color: #85144b; }
 
 .white {
-  color: white; }
+  color: white;
+  border-color: white; }
 
 .silver {
-  color: #dddddd; }
+  color: #dddddd;
+  border-color: #dddddd; }
 
 .gray {
-  color: #aaaaaa; }
+  color: #aaaaaa;
+  border-color: #aaaaaa; }
 
 .black {
-  color: #111111; }
+  color: #111111;
+  border-color: #111111; }
 
 /* PRETTIER LINKS */
 a {
