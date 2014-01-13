@@ -119,6 +119,34 @@
 
 .black {
   color: #111111; }
+  
+  .aliceblue{
+     color:#f0f8ff; }
+  
+    .antiquewhite{
+     color:#faebd7; }
+  
+  
+    .chartreuse{
+     color:#7fff00;}  
+     
+     .coral{
+     color:#ff7f50;
+  }
+  
+  
+    .crimson{
+     color:#dc143c;
+  }
+    .greenyellow{
+     color:#adff2f;
+  }
+    .hotpink{
+     color:#ff69b4;
+  }
+    .sienna{
+     color:#a0522d;
+  }
 
 /* PRETTIER LINKS */
 a {
