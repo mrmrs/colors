@@ -11,7 +11,7 @@ This is a set of sass variables and css classes that should help fix that.
 
 ## Getting started
 
-* Grab a copy of the code by downloading the zip from this page - or cloning/forking the repo.
+Grab a copy of the code by downloading the zip from this page - or cloning/forking the repo.
 ```bash
 git clone git@github.com:mrmrs/colors.git
 ```
@@ -19,14 +19,16 @@ git clone git@github.com:mrmrs/colors.git
 ### Using the css
 Simply copy colors.css to your css directory and include the file like so in the head of your html document
 
-``` <link rel="stylesheet" href="css/colors.css"> ```
+```html
+<link rel="stylesheet" href="css/colors.css">
+```
 
 ### Using the Sass
 The sass source can be found in a folder I creatively titled "sass."
 Include any or all of the three partials to your project like you would any other
 sass partials. But just for reference...
 
-```
+```scss
 @import "variables";
 @import "skins";
 @import "links";
