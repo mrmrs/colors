@@ -1,10 +1,10 @@
 # COLORS
 
-# Better colors for the web.
+## Better colors for the web.
 
 View the project page at [http://clrs.cc](http://clrs.cc "Colors: Redefining the default web colors.")
 
-# What is this?
+## What is this?
 
 A simple color palette for the web. Out of the box, the color strings that css provides aren't... the tops.
 This is a set of sass variables and css classes that should help fix that.
