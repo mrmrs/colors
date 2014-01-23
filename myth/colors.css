@@ -1,0 +1,79 @@
+/*
+ *
+ * colors.css
+ * @mrmrs
+ * MIT
+ *
+ */
+
+:root {
+  var-aqua:   #7FDBFF;
+  var-blue:   #0074D9;
+  var-navy:   #001F3F;
+  var-teal:   #39CCCC;
+  var-green:  #2ECC40;
+  var-olive:  #3D9970;
+  var-lime:   #01FF70;
+  var-yellow: #FFDC00;
+  var-orange: #FF851B;
+  var-red:    #FF4136;
+  var-fuchsia:#F012BE;
+  var-purple: #B10DC9;
+  var-maroon: #85144B;
+  var-white:  #fff;
+  var-silver: #ddd;
+  var-gray:   #aaa;
+  var-black:  #111;
+}
+
+
+/* Backgrounds */
+
+.bg-navy {    background-color: var(navy);    }
+.bg-blue {    background-color: var(blue);    }
+.bg-aqua {    background-color: var(aqua);    }
+.bg-teal {    background-color: var(teal);    }
+.bg-olive {   background-color: var(olive);   }
+.bg-green {   background-color: var(green);   }
+.bg-lime {    background-color: var(lime);    }
+.bg-yellow {  background-color: var(yellow);  }
+.bg-orange {  background-color: var(orange);  }
+.bg-red {     background-color: var(red);     }
+.bg-fuchsia { background-color: var(fuchsia); }
+.bg-purple {  background-color: var(purple);  }
+.bg-maroon {  background-color: var(maroon);  }
+.bg-white {   background-color: var(white);   }
+.bg-gray {    background-color: var(gray);    }
+.bg-silver {  background-color: var(silver);  }
+.bg-black {   background-color: var(black);   }
+
+
+/* Colors */
+
+.navy {       color: var(navy);    }
+.blue {       color: var(blue);    }
+.aqua {       color: var(aqua);    }
+.teal {       color: var(teal);    }
+.olive {      color: var(olive);   }
+.green {      color: var(green);   }
+.lime {       color: var(lime);    }
+.yellow {     color: var(yellow);  }
+.orange {     color: var(orange);  }
+.red {        color: var(red);     }
+.fuchsia {    color: var(fuchsia); }
+.purple {     color: var(purple);  }
+.maroon {     color: var(maroon);  }
+.white {      color: var(white);   }
+.silver {     color: var(silver);  }
+.gray {       color: var(gray);    }
+.black {      color: var(black);   }
+
+/* Links */
+
+a { transition: color .3s ease-in-out; }
+
+a:link    { color: var(blue); }
+a:visited { color: var(purple); }
+a:hover   { color: var(aqua); }
+a:active  { color: var(orange); }
+
