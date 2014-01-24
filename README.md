@@ -58,7 +58,7 @@ gulp myth
 
 If you would like to minify ./css/colors.css you can just run
 ```bash
-grunt minify
+gulp minify
 ```
 
 * Except for less which doesn't seem well supported with gulp yet. Hopefully we can
