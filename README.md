@@ -23,20 +23,46 @@ Simply copy colors.css to your css directory and include the file like so in the
 <link rel="stylesheet" href="css/colors.css">
 ```
 
-### Using the Sass
-The sass source can be found in a folder I creatively titled "sass."
-Include any or all of the three partials to your project like you would any other
-sass partials. But just for reference...
+### Using sass, stylus, less, and myth
 
-```scss
-@import "variables";
-@import "skins";
-@import "links";
+If you'd like to customize colors.css to your liking, you can edit the source in a variety of flavors.
+Colors uses [gulp](http://gulpjs.com "GulpJs - A sweet js taskrunner") as a taskrunner.
+There are individual gulp tasks for each preprocessor*
+Each gulp task also comes with automatic vendor prefix support, csslint output, and livereload updates
+built in.
+It's pretty sweet.
+
+First run
+```bash
+npm install
 ```
 
-### Using the Stylus
-You an also edit the source code as stylus.
-Include, exclude, or modify the partials to your hearts content.
+Once that is complete you can use any preprocessor like so
+
+Recompile everything imported in ./sass/colors.scss to css/colors.css
+everytime a file in the ./sass directory is updated
+```bashflavors.
+gulp sass
+```
+
+Recompile everything imported in ./stylus/colors.styl to ./css/colors.css
+everytime a file in the ./stylus directory is updated
+```bash
+gulp stylus
+```
+
+Recompile myth/colors.css to css/colors.css everytime myth/colors.css is updated
+```bash
+gulp myth
+```
+
+If you would like to minify ./css/colors.css you can just run
+```bash
+grunt minify
+```
+
+* Except for less which doesn't seem well supported with gulp yet. Hopefully we can
+better support less soon.
 
 ## Directory structure
 ```
@@ -52,6 +78,8 @@ Include, exclude, or modify the partials to your hearts content.
             ├── _skins.less
             ├── _links.less
             ├── colors.less
+        ├── myth                  (CSS Source)
+            ├── colors.css
         ├── sass                  (CSS Source)
             ├── _variables.scss
             ├── _skins.scss
@@ -62,18 +90,6 @@ Include, exclude, or modify the partials to your hearts content.
             ├── skins.styl
             ├── links.styl
             ├── colors.styl
-```
-
-## Rake tasks
-
-Start sass development
-```bash
-rake sass
-```
-
-Start sass - output is minified
-```bash
-rake minify
 ```
 
 # Author
