@@ -1,14 +1,11 @@
-@charset "UTF-8";
-/****
+/***
 
-   colors.css v1.0 For a friendlier looking web
-   MIT License • http://clrs.cc • http://github.com/mrmrs/colors
+   colors.css v1.0
+   http://clrs.cc
+   @mrmrs
+   MIT License
 
-   Author: mrmrs
-           http://mrmrs.cc
-           @mrmrs_
-
-****/
+***/
 /*
 
    SKINS
@@ -120,26 +117,19 @@
 .black {
   color: #111111; }
 
-/* PRETTIER LINKS */
+/* Prettier Links */
 a {
-  text-decoration: none;
-  -webkit-transition: color .3s ease-in-out;
-  transition: color .3s ease-in-out; }
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out; }
 
 a:link {
-  color: #0074d9;
-  -webkit-transition: color .3s ease-in-out;
-  transition: color .3s ease-in-out; }
+  color: #0074d9; }
 
 a:visited {
   color: #b10dc9; }
 
 a:hover {
-  color: #7fdbff;
-  -webkit-transition: color .3s ease-in-out;
-  transition: color .3s ease-in-out; }
+  color: #7fdbff; }
 
 a:active {
-  color: #ff851b;
-  -webkit-transition: color .3s ease-in-out;
-  transition: color .3s ease-in-out; }
+  color: #ff851b; }
