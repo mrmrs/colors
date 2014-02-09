@@ -1,29 +1,23 @@
 /* PRETTIER LINKS */
 
 a {
-    -webkit-transition: color .3s ease-in-out;
-    transition:         color .3s ease-in-out;
+  & {
+    .transition(@link-transition);
   }
 
-a:link    {
-  color: @blue;
-  -webkit-transition: color .3s ease-in-out;
-  transition:         color .3s ease-in-out;
-}
+  &:active {
+    color: @orange;
+  }
 
-a:visited {
-  color: @purple;
-}
+  &:hover {
+    color: @aqua;
+  }
 
-a:hover   {
-  color: @aqua;
-  -webkit-transition: color .3s ease-in-out;
-  transition:         color .3s ease-in-out;
-}
+  &:link {
+    color: @blue;
+  }
 
-a:active  {
-  color: @orange;
-  -webkit-transition: color .3s ease-in-out;
-  transition:         color .3s ease-in-out;
+  &:visited {
+    color: @purple;
+  }
 }
-
