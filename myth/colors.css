@@ -23,7 +23,16 @@
   var-white:  #fff;
   var-silver: #ddd;
   var-gray:   #aaa;
-  var-black:  #111;
+  var-black:  #000;
+  var-gray90: hsl(0, 0%, 10%);
+  var-gray80: hsl(0, 0%, 20%);
+  var-gray70: hsl(0, 0%, 30%);
+  var-gray60: hsl(0, 0%, 40%);
+  var-gray50: hsl(0, 0%, 50%);
+  var-gray40: hsl(0, 0%, 60%);
+  var-gray30: hsl(0, 0%, 70%);
+  var-gray20: hsl(0, 0%, 80%);
+  var-gray10: hsl(0, 0%, 90%);
 }
 
 
@@ -46,6 +55,15 @@
 .bg-gray {    background-color: var(gray);    }
 .bg-silver {  background-color: var(silver);  }
 .bg-black {   background-color: var(black);   }
+.bg-gray10 {   background-color: var(gray10);   }
+.bg-gray20 {   background-color: var(gray20);   }
+.bg-gray30 {   background-color: var(gray30);   }
+.bg-gray40 {   background-color: var(gray40);   }
+.bg-gray50 {   background-color: var(gray50);   }
+.bg-gray60 {   background-color: var(gray60);   }
+.bg-gray70 {   background-color: var(gray70);   }
+.bg-gray80 {   background-color: var(gray80);   }
+.bg-gray90 {   background-color: var(gray90);   }
 
 
 /* Colors */
@@ -67,6 +85,15 @@
 .silver {     color: var(silver);  }
 .gray {       color: var(gray);    }
 .black {      color: var(black);   }
+.gray10 {      color: var(gray10);   }
+.gray20 {      color: var(gray20);   }
+.gray30 {      color: var(gray30);   }
+.gray40 {      color: var(gray40);   }
+.gray50 {      color: var(gray50);   }
+.gray60 {      color: var(gray60);   }
+.gray70 {      color: var(gray70);   }
+.gray80 {      color: var(gray80);   }
+.gray90 {      color: var(gray90);   }
 
 /* Links */
 

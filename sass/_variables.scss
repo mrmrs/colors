@@ -30,5 +30,17 @@ $maroon:  #85144B;
 $white:  #fff;
 $silver: #ddd;
 $gray:   #aaa;
-$black:  #111;
+$black:  #000;
 
+/*
+	B/W Color Scale
+*/
+$gray90: hsl(0, 0%, 10%);
+$gray80: hsl(0, 0%, 20%);
+$gray70: hsl(0, 0%, 30%);
+$gray60: hsl(0, 0%, 40%);
+$gray50: hsl(0, 0%, 50%);
+$gray40: hsl(0, 0%, 60%);
+$gray30: hsl(0, 0%, 70%);
+$gray20: hsl(0, 0%, 80%);
+$gray10: hsl(0, 0%, 90%);
