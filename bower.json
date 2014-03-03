@@ -1,9 +1,9 @@
 {
 	"name": "Colors",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"homepage": "https://github.com/mrmrs/colors",
 	"authors": [
-		"Adam Morse <hi@mrmmrs.cc>"
+		"@mrmrs <hi@mrmmrs.cc>"
 	],
 	"description": "Better colors for the web.",
 	"keywords": [
