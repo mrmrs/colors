@@ -33,6 +33,13 @@ built in.
 It's pretty sweet.
 
 First run
+
+```bash
+npm install -g gulp
+```
+
+Then
+
 ```bash
 npm install
 ```
@@ -41,7 +48,7 @@ Once that is complete you can use any preprocessor like so
 
 Recompile everything imported in ./sass/colors.scss to css/colors.css
 everytime a file in the ./sass directory is updated
-```bashflavors.
+```bash
 gulp sass
 ```
 
