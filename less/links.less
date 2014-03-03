@@ -1,0 +1,23 @@
+/* PRETTIER LINKS */
+
+a {
+  & {
+    .transition(@link-transition);
+  }
+
+  &:active {
+    color: @orange;
+  }
+
+  &:hover {
+    color: @aqua;
+  }
+
+  &:link {
+    color: @blue;
+  }
+
+  &:visited {
+    color: @purple;
+  }
+}

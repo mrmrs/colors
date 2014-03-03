@@ -1,0 +1,18 @@
+//
+// MIXINS
+//
+
+.skin(@value) {
+  .bg-@{value} {
+    background-color: @@value;
+  }
+  .@{value} {
+    color: @@value;
+  }
+}
+
+.transition(@value) {
+  -webkit-transition: @value;
+  -moz-transition:    @value;
+  transition:         @value;
+}
