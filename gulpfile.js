@@ -53,6 +53,7 @@ gulp.task('sass', function(){
 gulp.task('myth', function(){
   gulp.src('./myth/*.css')
       .pipe(myth())
+      .pipe(prefix())
       .pipe(gulp.dest('./css/'));
 });
 
@@ -79,7 +80,7 @@ gulp.task('stylus', function(){
 
 gulp.task('default', function(){
   server.listen(35729, function (err) {
-    gulp.watch(['./sass/*.scss', './js/*.js'], function(event) {
+    gulp.watch(['./sass/*.scss'], function(event) {
       gulp.run('sass', 'lint');
     });
   });
