@@ -16,12 +16,12 @@
   },
   "repository" :
     {
-      "type" : "git"
-    , "url" : "http://github.com/mrmrs/colors.git"
+      "type" : "git",
+      "url" : "http://github.com/mrmrs/colors.git"
   },
   "bugs": {
-    "url" : "http://github.com/mrmrs/colors/issues"
-  , "email" : "hi@mrmrs.cc"
+    "url" : "http://github.com/mrmrs/colors/issues",
+    "email" : "hi@mrmrs.cc"
   },
   "license" : "MIT"
 }
