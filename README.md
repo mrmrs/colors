@@ -2,12 +2,12 @@
 
 ## Better colors for the web.
 
-View the project page at [http://clrs.cc](http://clrs.cc "Colors: Redefining the default web colors.")
+View the project page at [http://clrs.cc](http://clrs.cc "Colors: Better colors for the web.")
 
 ## What is this?
 
-A simple color palette for the web. Out of the box, the color strings that css provides aren't... the tops.
-This is a set of sass variables and css classes that should help fix that.
+A simple color palette for the web. Let's be honest, out of the box, the color strings that css provides aren't... the tops.
+This is a set of sass/less/stylus/css variables and css classes that can help fix that.
 
 ## Getting started
 
@@ -71,32 +71,46 @@ gulp minify
 * Except for less which doesn't seem well supported with gulp yet. Hopefully we can
 better support less soon.
 
+If you are compiling less and want to run autoprefixer - you can run that on compiled css with
+```
+gulp prefix
+```
+
 ## Directory structure
 ```
-  colors/
-        ├── README.md
-        ├── Rakefile
-        ├── index.html
-        ├── css
-        │   └── colors.css
-        │   └── colors.min.css
-        ├── less                  (CSS Source)
-            ├── _variables.less
-            ├── _skins.less
-            ├── _links.less
-            ├── colors.less
-        ├── myth                  (CSS Source)
-            ├── colors.css
-        ├── sass                  (CSS Source)
-            ├── _variables.scss
-            ├── _skins.scss
-            ├── _links.scss
-            ├── colors.scss
-        ├── stylus                (CSS Source)
-            ├── variables.styl
-            ├── skins.styl
-            ├── links.styl
-            ├── colors.styl
+
+    colors/
+          ├── README.md
+          ├── bower.json
+          ├── coffee
+          │   └── colors.coffee
+          ├── css
+          │   ├── colors.css
+          │   └── colors.min.css
+          ├── gulpfile.js
+          ├── index.html
+          ├── js
+          │   └── colors.js
+          ├── less
+          │   ├── _links.less
+          │   ├── _skins.less
+          │   ├── _variables.less
+          │   └── colors.less
+          ├── myth
+          │   └── colors.css
+          ├── package.json
+          ├── sass
+          │   ├── _links.scss
+          │   ├── _skins.scss
+          │   ├── _variables.scss
+          │   └── colors.scss
+          ├── site.css
+          └── stylus
+              ├── colors.styl
+              ├── links.styl
+              ├── skins.styl
+              └── variables.styl
+
 ```
 
 # Author

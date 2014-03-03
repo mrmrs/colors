@@ -57,6 +57,15 @@ gulp.task('myth', function(){
       .pipe(gulp.dest('./css/'));
 });
 
+
+// Just runs autoprefixer on the compiled css
+
+gulp.task('prefix', function(){
+  gulp.src('./css/*.css')
+      .pipe(prefix())
+      .pipe(gulp.dest('./css/'));
+});
+
 gulp.task('stylus', function(){
   gulp.src('./stylus/colors.styl')
       .pipe(watch(function(files) {
