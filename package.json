@@ -12,16 +12,18 @@
     "gulp-sass": "~0.4.1",
     "gulp-stylus": "0.0.11",
     "gulp-myth": "~0.1.1",
-    "gulp-autoprefixer": "0.0.5"
+    "gulp-autoprefixer": "0.0.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-less": "^1.2.2",
+    "gulp-coffee": "^1.4.1"
   },
-  "repository" :
-    {
-      "type" : "git",
-      "url" : "http://github.com/mrmrs/colors.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/colors.git"
   },
   "bugs": {
-    "url" : "http://github.com/mrmrs/colors/issues",
-    "email" : "hi@mrmrs.cc"
+    "url": "http://github.com/mrmrs/colors/issues",
+    "email": "hi@mrmrs.cc"
   },
-  "license" : "MIT"
+  "license": "MIT"
 }
