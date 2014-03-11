@@ -7,10 +7,10 @@
  */
 
 :root {
-	var-aqua-hex: #001F3F;
-	var-aqua-rgb: rgb(0, 31, 63);
-	var-aqua-rgba: rgba(0, 31, 63, 1.0);
-	var-aqua-hsla: hsla(210, 100%, 12%, 1.0);
+	var-aqua-hex: #7FDBFF;
+	var-aqua-rgb: rgb(127, 219, 255);
+	var-aqua-rgba: rgba(127, 219, 255, 1.0);
+	var-aqua-hsla: hsla(197, 100%, 75%, 1.0);
 	var-blue-hex: #0074D9;
 	var-blue-rgb: rgb(0, 116, 217);
 	var-blue-rgba: rgba(0, 116, 217, 1.0);
@@ -199,7 +199,7 @@
 	background-color: var(black-hsla);
 }
 
- /* Colors */
+/* Colors */
 
 .aqua {
 	color: var(aqua-hex);
@@ -320,7 +320,7 @@
 	color: var(black-hsla);
 }
 
- /* Links */
+/* Links */
 
 a {
 	transition: color .3s ease-in-out;
@@ -353,4 +353,3 @@ a:active {
 	color: var(orange-rgba);
 	color: var(orange-hsla);
 }
-
