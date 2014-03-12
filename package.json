@@ -1,29 +1,29 @@
 {
-  "name": "Colors",
-  "version": "0.2.0",
-  "devDependencies": {
-    "gulp": "~3.5.5",
-    "gulp-livereload": "~0.2.0",
-    "gulp-minify-css": "~0.2.0",
-    "tiny-lr": "0.0.5",
-    "gulp-util": "~2.2.12",
-    "gulp-watch": "~0.5.0",
-    "gulp-csslint": "~0.1.3",
-    "gulp-sass": "~0.4.1",
-    "gulp-stylus": "0.0.11",
-    "gulp-myth": "~0.1.1",
-    "gulp-autoprefixer": "0.0.5",
-    "gulp-rename": "^1.2.0",
-    "gulp-less": "^1.2.2",
-    "gulp-coffee": "^1.4.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/mrmrs/colors.git"
-  },
-  "bugs": {
-    "url": "http://github.com/mrmrs/colors/issues",
-    "email": "hi@mrmrs.cc"
-  },
-  "license": "MIT"
+	"name": "Colors",
+	"version": "0.3.0",
+	"devDependencies": {
+		"gulp": "~3.5.5",
+		"gulp-livereload": "~1.2.0",
+		"gulp-minify-css": "~0.3.0",
+		"tiny-lr": "~0.0.5",
+		"gulp-util": "~2.2.14",
+		"gulp-watch": "~0.5.2",
+		"gulp-csslint": "~0.1.3",
+		"gulp-sass": "~0.7.1",
+		"gulp-stylus": "~0.0.15",
+		"gulp-myth": "~0.1.1",
+		"gulp-autoprefixer": "~0.0.6",
+		"gulp-rename": "^1.2.0",
+		"gulp-less": "^1.2.2",
+		"gulp-coffee": "^1.4.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/mrmrs/colors.git"
+	},
+	"bugs": {
+		"url": "http://github.com/mrmrs/colors/issues",
+		"email": "hi@mrmrs.cc"
+	},
+	"license": "MIT"
 }
