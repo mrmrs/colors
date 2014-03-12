@@ -2,6 +2,7 @@
 
 var gulp = require('gulp'),
 	gutil = require('gulp-util'),
+	path = require('path'),
 	watch = require('gulp-watch'),
 	lr = require('tiny-lr'),
 	server = lr(),
@@ -67,17 +68,16 @@ gulp.task('css', ['lint', 'prefix', 'minify']);
 
 // LESS
 
-// gulp.task('less', function () {
-// 	gulp.src('./less/')
-// });
-
-
-// Gotta check out LESS and see how to do it
-
+gulp.task('compile-less', function () {
+	return gulp.src('./less/colors.less')
+		.pipe(less())
+		.pipe(rename('colors.min.css'))
+		.pipe(gulp.dest('./less/'));
+});
 
 // Myth
 
-gulp.task('myth', function () {
+gulp.task('compile-myth', function () {
 	gulp.src('./myth/*.css')
 		.pipe(myth())
 		.pipe(prefix())
@@ -86,7 +86,7 @@ gulp.task('myth', function () {
 
 // SASS
 
-gulp.task('sass', function () {
+gulp.task('compile-sass', function () {
 	gulp.src('./sass/*.scss')
 		.pipe(watch(function (files) {
 			return files.pipe(sass({
@@ -100,7 +100,7 @@ gulp.task('sass', function () {
 
 // Stylus
 
-gulp.task('stylus', function () {
+gulp.task('compile-stylus', function () {
 	gulp.src('./stylus/colors.styl')
 		.pipe(watch(function (files) {
 			return files.pipe(stylus())
