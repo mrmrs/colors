@@ -1,11 +1,33 @@
 /* Prettier Links */
 
 a {
-  transition:         color .3s ease-in-out;
+	transition: color 0.3s ease-in-out;
 }
 
-a:link    { color: $blue; }
-a:visited { color: $purple; }
-a:hover   { color: $aqua; }
-a:active  { color: $orange; }
+a:link {
+	color: $blue-hex;
+	color: $blue-rgb;
+	color: $blue-rgba;
+	color: $blue-hsla;
+}
 
+a:visited {
+	color: $purple-hex;
+	color: $purple-rgb;
+	color: $purple-rgba;
+	color: $purple-hsla;
+}
+
+a:hover {
+	color: $aqua-hex;
+	color: $aqua-rgb;
+	color: $aqua-rgba;
+	color: $aqua-hsla;
+}
+
+a:active {
+	color: $orange-hex;
+	color: $orange-rgb;
+	color: $orange-rgba;
+	color: $orange-hsla;
+}
