@@ -8,27 +8,77 @@
 
 // Cool
 
-$aqua:  #7FDBFF;
-$blue:  #0074D9;
-$navy:  #001F3F;
-$teal:  #39CCCC;
-$green: #2ECC40;
-$olive: #3D9970;
-$lime:  #01FF70;
+$aqua-hex: #7FDBFF;
+$aqua-rgb: rgb(127, 219, 255);
+$aqua-rgba: rgba(127, 219, 255, 1.0);
+$aqua-hsla: hsla(197, 100%, 75%, 1.0);
+$blue-hex: #0074D9;
+$blue-rgb: rgb(0, 116, 217);
+$blue-rgba: rgba(0, 116, 217, 1.0);
+$blue-hsla: hsla(208, 100%, 43%, 1.0);
+$navy-hex: #001F3F;
+$navy-rgb: rgb(0, 31, 63);
+$navy-rgba: rgba(0, 31, 63, 1.0);
+$navy-hsla: hsla(210, 100%, 12%, 1.0);
+$teal-hex: #39CCCC;
+$teal-rgb: rgb(57, 204, 204);
+$teal-rgba: rgba(57, 204, 204, 1.0);
+$teal-hsla: hsla(180, 59%, 51%, 1.0);
+$green-hex: #2ECC40;
+$green-rgb: rgb(46, 204, 64);
+$green-rgba: rgba(46, 204, 64, 1.0);
+$green-hsla: hsla(127, 63%, 49%, 1.0);
+$olive-hex: #3D9970;
+$olive-rgb: rgb(61, 153, 112);
+$olive-rgb: rgba(61, 153, 112, 1.0);
+$olive-hsla: hsla(153, 43%, 42%, 1.0);
+$lime-hex: #01FF70;
+$lime-rgb: rgb(1, 255, 112);
+$lime-rgba: rgba(1, 255, 112, 1.0);
+$lime-hsla: hsla(146, 100%, 50%, 1.0);
 
 // Warm
 
-$yellow:  #FFDC00;
-$orange:  #FF851B;
-$red:     #FF4136;
-$fuchsia: #F012BE;
-$purple:  #B10DC9;
-$maroon:  #85144B;
+$yellow-hex: #FFDC00;
+$yellow-rgb: rgb(255, 220, 0);
+$yellow-rgba: rgba(255, 220, 0, 1.0);
+$yellow-hsla: hsla(52, 100%, 50%, 1.0);
+$orange-hex: #FF851B;
+$orange-rgb: rgb(255, 133, 27);
+$orange-rgba: rgba(255, 133, 27, 1.0);
+$orange-hsla: hsla(28, 100%, 55%, 1.0);
+$red-hex: #FF4136;
+$red-rgb: rgb(255, 65, 54);
+$red-rgba: rgba(255, 65, 54, 1.0);
+$red-hsla: hsla(3, 100%, 61%, 1.0);
+$fuchsia-hex: #F012BE;
+$fuchsia-rgb: rgb(240, 18, 190);
+$fuchsia-rgba: rgba(240, 18, 190, 1.0);
+$fuchsia-hsla: hsla(314, 88%, 51%, 1.0);
+$purple-hex: #B10DC9;
+$purple-rgb: rgb(177, 13, 201);
+$purple-rgba: rgba(177, 13, 201, 1.0);
+$purple-hsla: hsla(292, 88%, 42%, 1.0);
+$maroon-hex: #85144B;
+$maroon-rgb: rgb(133, 20, 75);
+$maroon-rgba: rgba(133, 20, 75, 1.0);
+$maroon-hsla: hsla(331, 74%, 30%, 1.0);
 
 // Gray Scale
 
-$white:  #fff;
-$silver: #ddd;
-$gray:   #aaa;
-$black:  #111;
-
+$white-hex: #fff;
+$white-rgb: rgb(255, 255, 255);
+$white-rgba: rgba(255, 255, 255, 1.0);
+$white-hsla: hsla(0, 100%, 100%, 1.0);
+$silver-hex: #ddd;
+$silver-rgb: rgb(221, 221, 221);
+$silver-rgba: rgba(221, 221, 221, 1.0);
+$silver-hsla: hsla(0, 0%, 87%, 1.0);
+$gray-hex: #aaa;
+$gray-rgb: rgb(170, 170, 170);
+$gray-rgba: rgba(170, 170, 170, 1.0);
+$gray-hsla: hsla(0, 0%, 67%, 1.0);
+$black-hex: #111;
+$black-rgb: rgb(17, 17, 17);
+$black-rgba: rgba(17, 17, 17, 1.0);
+$black-hsla: hsla(0, 0%, 7%, 1.0);
