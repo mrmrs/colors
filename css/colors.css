@@ -1,6 +1,6 @@
 /***
 
-   colors.css v1.0
+   colors.css v0.2.0
    http://clrs.cc
    @mrmrs
    MIT License
@@ -54,7 +54,7 @@
   background-color: #85144b; }
 
 .bg-white {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .bg-gray {
   background-color: #aaaaaa; }
@@ -106,7 +106,7 @@
   color: #85144b; }
 
 .white {
-  color: white; }
+  color: #ffffff; }
 
 .silver {
   color: #dddddd; }
