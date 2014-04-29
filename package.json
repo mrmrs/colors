@@ -1,6 +1,19 @@
 {
   "name": "Colors",
   "version": "0.2.0",
+  "homepage": "http://clrs.cc",
+  "description": "Better colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.",
+  "keywords": [
+    "colors",
+    "design",
+    "palette",
+    "css",
+    "oocss",
+    "sass",
+    "stylus",
+    "myth",
+    "less"
+  ],
   "devDependencies": {
     "gulp": "~3.5.5",
     "gulp-livereload": "~0.2.0",
@@ -22,6 +35,23 @@
   "bugs": {
     "url" : "http://github.com/mrmrs/colors/issues",
     "email" : "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "@mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    { "name": "@mrmrs", "email": "hi@mrmrs.cc" }
+    { "name": "@ilanbiala"},
+    { "name": "@kdrdgn", "email": "hi@mrmrs.cc", "url": "http://www.twitter.com/kdrdgn" },
+    { "name": "@tenmilestereo", "url": "http://www.lewiscowper.com" },
+    { "name": "@nschonni", "email": "nschonni@gmail.com", "url": "http://wet-boew.github.io/" },
+    { "name": "SiR-DanieL" },
+    { "name": "@enyo", "email": "m@tias.me", "url": "http://colorglare.com" }
+  ],
+  "engines": {
+    "node": "=>0.10.22"
   },
   "license" : "MIT"
 }
