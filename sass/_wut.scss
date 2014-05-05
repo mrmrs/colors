@@ -19,10 +19,12 @@ body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
  .border-top { border-top: 1px solid $silver; }
  .list { list-style: none; margin-left: 0; padding-left: 0;}
  .list-item { display: inline-block; padding-left: 0; }
-.wi-100 { width: 50%; }
+.wi-100 { width: 100%; }
 .wi-50 { width: 50%; }
 .wi-25 { width: 25%; }
+
 .wi-clr { width: 6%; }
+
 .wi-blk { width: 10%; }
 .db { display: block; }
 .dib { display: inline-block; }
@@ -63,3 +65,30 @@ body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
 }
 
 .small { font-size: 1rem; }
+
+@-webkit-keyframes pulsate {
+    0% {   color: lighten($black, 30%); background: $black }
+    7% {   color: lighten($navy, 20%);   background: $navy }
+    14% {  color: lighten($blue, 20%); background: $blue}
+    21% {  color: darken($aqua, 30%); background: $aqua}
+    28% {  color: darken($teal, 30%); background: $teal}
+    35% {  color: darken($olive, 30%); background: $olive}
+    42% {  color: darken($green, 30%); background: $green}
+    49% {  color: darken($lime, 30%); background: $lime}
+    56% {  color: darken($yellow, 30%); background: $yellow}
+    63% {  color: lighten($orange, 30%); background: $orange}
+    70% {  color: lighten($red, 30%); background: $red}
+    77% {  color: lighten($maroon, 30%); background: $maroon}
+    84% {  color: lighten($fuchsia, 30%); background: $fuchsia}
+    91% {  color: lighten($purple, 30%); background: $purple}
+    94% {  color: darken($white, 30%); background: $white}
+    96% {  color: darken($silver, 30%); background: $silver}
+    98% {  color: darken($gray, 30%); background: $gray}
+    100% { color: lighten($black, 30%); background: $black }
+}
+
+.pulsate-bg {
+-webkit-animation: pulsate 100s linear infinite;
+   -moz-animation: pulsate 100s linear infinite;
+        animation: pulsate 100s linear infinite;
+}
