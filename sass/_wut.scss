@@ -67,8 +67,8 @@ body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
 .small { font-size: 1rem; }
 
 @-webkit-keyframes pulsate {
-    0% {   color: lighten($black, 30%); background: $black }
-    7% {   color: lighten($navy, 20%);   background: $navy }
+    0% {  color: darken($white, 80%); background: $white}
+    7% {   color: lighten($navy, 40%);   background: $navy }
     14% {  color: lighten($blue, 20%); background: $blue}
     21% {  color: darken($aqua, 30%); background: $aqua}
     28% {  color: darken($teal, 30%); background: $teal}
@@ -81,10 +81,10 @@ body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
     77% {  color: lighten($maroon, 30%); background: $maroon}
     84% {  color: lighten($fuchsia, 30%); background: $fuchsia}
     91% {  color: lighten($purple, 30%); background: $purple}
-    94% {  color: darken($white, 30%); background: $white}
+    95% { color: lighten($black, 30%); background: $black }
     96% {  color: darken($silver, 30%); background: $silver}
     98% {  color: darken($gray, 30%); background: $gray}
-    100% { color: lighten($black, 30%); background: $black }
+    100% {  color: darken($white, 30%); background: $white}
 }
 
 .pulsate-bg {

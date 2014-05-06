@@ -650,11 +650,11 @@ body {
 
 @-webkit-keyframes pulsate {
   0% {
-    color: #5e5e5e;
-    background: #111111; }
+    color: #333333;
+    background: white; }
 
   7% {
-    color: #0051a5;
+    color: #0c84ff;
     background: #001f3f; }
 
   14% {
@@ -705,9 +705,9 @@ body {
     color: #e679f6;
     background: #b10dc9; }
 
-  94% {
-    color: #b3b3b3;
-    background: white; }
+  95% {
+    color: #5e5e5e;
+    background: #111111; }
 
   96% {
     color: #919191;
@@ -718,8 +718,8 @@ body {
     background: #aaaaaa; }
 
   100% {
-    color: #5e5e5e;
-    background: #111111; } }
+    color: #b3b3b3;
+    background: white; } }
 
 .pulsate-bg {
   -webkit-animation: pulsate 100s linear infinite;
