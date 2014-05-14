@@ -8,6 +8,7 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload'),
     prefix = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-minify-css'),
+    lint = require('gulp-csslint'),
     sass = require('gulp-sass');
 
 
@@ -46,3 +47,8 @@ gulp.task('sass', function(){
       }));
 });
 
+gulp.task('default', function(){
+  gulp.watch(['*.html', './sass/*.scss'], function(event) {
+    gulp.run('sass');
+  });
+});

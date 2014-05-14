@@ -15,6 +15,7 @@ body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
 .man { margin: 0; }
 .pan { padding: 0; }
 .pas { padding: .5rem; }
+.pam { padding: 1rem; }
 .ptl { padding-top: 2rem; }
  .border-top { border-top: 1px solid $silver; }
  .list { list-style: none; margin-left: 0; padding-left: 0;}
@@ -64,31 +65,47 @@ body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
     *zoom: 1;
 }
 
-.small { font-size: 1rem; }
+.small { font-size: .75rem; }
+.fr { float: right; }
 
-@-webkit-keyframes pulsate {
-    0% {  color: darken($white, 80%); background: $white}
-    7% {   color: lighten($navy, 40%);   background: $navy }
-    14% {  color: lighten($blue, 20%); background: $blue}
-    21% {  color: darken($aqua, 30%); background: $aqua}
-    28% {  color: darken($teal, 30%); background: $teal}
-    35% {  color: darken($olive, 30%); background: $olive}
-    42% {  color: darken($green, 30%); background: $green}
-    49% {  color: darken($lime, 30%); background: $lime}
-    56% {  color: darken($yellow, 30%); background: $yellow}
-    63% {  color: lighten($orange, 30%); background: $orange}
-    70% {  color: lighten($red, 30%); background: $red}
-    77% {  color: lighten($maroon, 30%); background: $maroon}
-    84% {  color: lighten($fuchsia, 30%); background: $fuchsia}
-    91% {  color: lighten($purple, 30%); background: $purple}
-    95% { color: lighten($black, 30%); background: $black }
-    96% {  color: darken($silver, 30%); background: $silver}
-    98% {  color: darken($gray, 30%); background: $gray}
-    100% {  color: darken($white, 30%); background: $white}
+/*
+   WIDTHS
+
+  Mobile-first width classes.
+  Set the desired width on any element for any breakpoint.
+  Base class names are namespaced across three breakpoints:
+
+  -ns = not-small (covers everything larger than mobile)
+  -m  = medium
+  -l  = large
+
+*/
+
+
+.w-25 {  width: 25%; }
+.w-50 {  width: 50%; }
+.w-75 {  width: 75%; }
+.w-100 { width: 100%; }
+
+@media screen and (min-width: 48em) {
+  .w-25-ns {  width: 25%; }
+  .w-50-ns {  width: 50%; }
+  .w-75-ns {  width: 75%; }
+  .w-100-ns { width: 100%; }
 }
 
-.pulsate-bg {
--webkit-animation: pulsate 100s linear infinite;
-   -moz-animation: pulsate 100s linear infinite;
-        animation: pulsate 100s linear infinite;
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .w-25-m {  width: 25%; }
+  .w-50-m {  width: 50%; }
+  .w-75-m {  width: 75%; }
+  .w-100-m { width: 100%; }
 }
+
+@media screen and (min-width: 64em)  {
+  .w-25-l {  width: 25%; }
+  .w-50-l {  width: 50%; }
+  .w-75-l {  width: 75%; }
+  .w-100-l { width: 100%; }
+}
+
+.mw-160 { min-width: 160px; }

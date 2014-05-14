@@ -1,33 +1,33 @@
 /* ==========================================================================
    Imports
    ========================================================================== */
-/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+/*
+
+   QUERIES
+
+*/
+/*
+ * Mixing for mobile first queries.
+ * Two breakpoints.
+ * Use like @include break(medium) {
+ *  ***Styles***
+ * }
+ *
+ */
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-audio,
-canvas,
-video {
+audio, canvas, video {
   display: inline-block; }
 
 /**
@@ -78,8 +78,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-a:active,
-a:hover {
+a:active, a:hover {
   outline: 0; }
 
 /* ==========================================================================
@@ -94,8 +93,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-b,
-strong {
+b, strong {
   font-weight: bold; }
 
 /**
@@ -109,6 +107,7 @@ dfn, em {
  */
 hr {
   -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -116,16 +115,13 @@ hr {
  * Address styling not present in IE 8/9.
  */
 mark {
-  background: #ff0;
-  color: #000; }
+  background: yellow;
+  color: black; }
 
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-code,
-kbd,
-pre,
-samp {
+code, kbd, pre, samp {
   font-family: monospace, serif;
   font-size: 1em; }
 
@@ -150,8 +146,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-sub,
-sup {
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -194,7 +189,7 @@ figure {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -213,10 +208,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-button,
-input,
-select,
-textarea {
+button, input, select, textarea {
   font-family: inherit;
   /* 1 */
   font-size: 100%;
@@ -228,8 +220,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-button,
-input {
+button, input {
   line-height: normal; }
 
 /**
@@ -238,8 +229,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-button,
-select {
+button, select {
   text-transform: none; }
 
 /**
@@ -249,10 +239,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
@@ -261,16 +248,16 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-button[disabled],
-html input[disabled] {
+button[disabled], html input[disabled] {
   cursor: default; }
 
 /**
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-input[type="checkbox"],
-input[type="radio"] {
+input[type="checkbox"], input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -293,15 +280,13 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
@@ -332,105 +317,105 @@ table {
 /* Skins
    ========================================================================== */
 .bg-aqua {
-  background-color: #7FDBFF; }
+  background-color: #7fdbff; }
 
 .bg-black {
   background-color: #111111; }
 
 .bg-blue {
-  background-color: #0074D9; }
+  background-color: #0074d9; }
 
 .bg-fuchsia {
-  background-color: #F012BE; }
+  background-color: #f012be; }
 
 .bg-green {
-  background-color: #2ECC40; }
+  background-color: #2ecc40; }
 
 .bg-lime {
-  background-color: #01FF70; }
+  background-color: #01ff70; }
 
 .bg-maroon {
-  background-color: #85144B; }
+  background-color: #85144b; }
 
 .bg-navy {
-  background-color: #001F3F; }
+  background-color: #001f3f; }
 
 .bg-olive {
-  background-color: #3D9970; }
+  background-color: #3d9970; }
 
 .bg-orange {
-  background-color: #FF851B; }
+  background-color: #ff851b; }
 
 .bg-purple {
-  background-color: #B10DC9; }
+  background-color: #b10dc9; }
 
 .bg-red {
-  background-color: #FF4136; }
+  background-color: #ff4136; }
 
 .bg-silver {
-  background-color: #ddd; }
+  background-color: #dddddd; }
 
 .bg-gray {
-  background-color: #aaa; }
+  background-color: #aaaaaa; }
 
 .bg-teal {
-  background-color: #39CCCC; }
+  background-color: #39cccc; }
 
 .bg-white {
   background-color: white; }
 
 .bg-yellow {
-  background-color: #FFDC00; }
+  background-color: #ffdc00; }
 
 /* Colors
    ========================================================================== */
 /* Cool */
 .aqua {
-  color: #7FDBFF; }
+  color: #7fdbff; }
 
 .blue {
-  color: #0074D9; }
+  color: #0074d9; }
 
 .navy {
-  color: #001F3F; }
+  color: #001f3f; }
 
 .teal {
-  color: #39CCCC; }
+  color: #39cccc; }
 
 .green {
-  color: #2ECC40; }
+  color: #2ecc40; }
 
 .olive {
-  color: #3D9970; }
+  color: #3d9970; }
 
 .lime {
-  color: #01FF70; }
+  color: #01ff70; }
 
 /* Warm */
 .maroon {
-  color: #85144B; }
+  color: #85144b; }
 
 .orange {
-  color: #FF851B; }
+  color: #ff851b; }
 
 .purple {
-  color: #B10DC9; }
+  color: #b10dc9; }
 
 .red {
-  color: #FF4136; }
+  color: #ff4136; }
 
 .yellow {
-  color: #FFDC00; }
+  color: #ffdc00; }
 
 .fuchsia {
-  color: #F012BE; }
+  color: #f012be; }
 
 /* Gray Scale */
 .silver {
-  color: #ddd; }
+  color: #dddddd; }
 
 .gray {
-  color: #aaa; }
+  color: #aaaaaa; }
 
 .white {
   color: white; }
@@ -439,7 +424,7 @@ table {
   color: #111111; }
 
 /* The 17 Default Colors of CSS
-   ========================================================================== */
+    ========================================================================== */
 .default-aqua {
   background-color: aqua; }
 
@@ -510,7 +495,7 @@ body {
   padding-bottom: 2rem; }
 
 .pvs {
-  padding: 0rem .75rem; }
+  padding: 0rem 0.75rem; }
 
 .pvxl {
   padding: 4rem 1rem; }
@@ -519,7 +504,7 @@ body {
   margin-top: 2rem; }
 
 .mbs {
-  margin-bottom: .5rem; }
+  margin-bottom: 0.5rem; }
 
 .tr {
   text-align: right; }
@@ -534,7 +519,10 @@ body {
   padding: 0; }
 
 .pas {
-  padding: .5rem; }
+  padding: 0.5rem; }
+
+.pam {
+  padding: 1rem; }
 
 .ptl {
   padding-top: 2rem; }
@@ -576,10 +564,10 @@ body {
   font-size: 3rem; }
 
 .colorssss div {
-  height: .5rem; }
+  height: 0.5rem; }
 
 .colorsss div {
-  height: .25rem; }
+  height: 0.25rem; }
 
 .f1 {
   font-size: 2rem; }
@@ -604,32 +592,34 @@ body {
 
 .title {
   text-transform: uppercase;
-  letter-spacing: .2em; }
+  letter-spacing: 0.2em; }
 
 .btn {
   display: inline-block;
   white-space: nowrap;
   padding: 1rem 1.5rem;
   border-radius: 3px;
-  margin-bottom: .5rem;
-  transition: background-color .4s ease-in-out;
-  -webkit-transition: background-color .4s ease-in-out; }
+  margin-bottom: 0.5rem;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+  -webkit-transition: background-color 0.4s ease-in-out; }
 
 .btn:hover {
   background-color: #7fdbff;
-  transition: background-color .4s ease-in-out;
-  -webkit-transition: background-color .4s ease-in-out; }
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+  -webkit-transition: background-color 0.4s ease-in-out; }
 
 .btn:active {
   background-color: #39cccc;
-  transition: background-color .4s ease-in-out;
-  -webkit-transition: background-color .4s ease-in-out; }
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+  -webkit-transition: background-color 0.4s ease-in-out; }
 
 .lnk {
   text-decoration: none; }
 
-.cf:before,
-.cf:after {
+.cf:before, .cf:after {
   content: " ";
   /* 1 */
   display: table;
@@ -646,7 +636,138 @@ body {
   *zoom: 1; }
 
 .small {
+  font-size: 0.75rem; }
+
+.fr {
+  float: right; }
+
+/*
+   WIDTHS
+
+  Mobile-first width classes.
+  Set the desired width on any element for any breakpoint.
+  Base class names are namespaced across three breakpoints:
+
+  -ns = not-small (covers everything larger than mobile)
+  -m  = medium
+  -l  = large
+
+*/
+.w-25 {
+  width: 25%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-75 {
+  width: 75%; }
+
+.w-100 {
+  width: 100%; }
+
+@media screen and (min-width: 48em) {
+  .w-25-ns {
+    width: 25%; }
+  .w-50-ns {
+    width: 50%; }
+  .w-75-ns {
+    width: 75%; }
+  .w-100-ns {
+    width: 100%; } }
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .w-25-m {
+    width: 25%; }
+  .w-50-m {
+    width: 50%; }
+  .w-75-m {
+    width: 75%; }
+  .w-100-m {
+    width: 100%; } }
+
+@media screen and (min-width: 64em) {
+  .w-25-l {
+    width: 25%; }
+  .w-50-l {
+    width: 50%; }
+  .w-75-l {
+    width: 75%; }
+  .w-100-l {
+    width: 100%; } }
+
+.mw-160 {
+  min-width: 160px; }
+
+/*
+
+   TYPE SCALE
+
+*/
+.f1 {
+  font-size: 2rem; }
+
+.f2 {
+  font-size: 1.5rem; }
+
+.f3 {
+  font-size: 1.2rem; }
+
+.f4 {
+  font-size: 1.2rem; }
+
+.f5 {
   font-size: 1rem; }
+
+.f6, .small {
+  font-size: 0.85rem; }
+
+@media screen and (min-width: 48em) {
+  .mega-ns {
+    font-size: 3rem; }
+  .f1-ns {
+    font-size: 2rem; }
+  .f2-ns {
+    font-size: 1.5rem; }
+  .f3-ns {
+    font-size: 1.2rem; }
+  .f4-ns {
+    font-size: 1.2rem; }
+  .f5-ns {
+    font-size: 1rem; }
+  .f6-ns {
+    font-size: 0.85rem; } }
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .mega-m {
+    font-size: 3rem; }
+  .f1-m {
+    font-size: 2rem; }
+  .f2-m {
+    font-size: 1.5rem; }
+  .f3-m {
+    font-size: 1.2rem; }
+  .f4-m {
+    font-size: 1.2rem; }
+  .f5-m {
+    font-size: 1rem; }
+  .f6-m {
+    font-size: 0.85rem; } }
+
+@media screen and (min-width: 64em) {
+  .mega-l {
+    font-size: 4rem; }
+  .f1-l {
+    font-size: 3rem; }
+  .f2-l {
+    font-size: 2rem; }
+  .f3-l {
+    font-size: 1.5rem; }
+  .f4-l {
+    font-size: 1.2rem; }
+  .f5-l {
+    font-size: 1rem; }
+  .f6-l {
+    font-size: 1rem; } }
 
 @-webkit-keyframes pulsate {
   0% {
@@ -654,15 +775,15 @@ body {
     background: white; }
 
   7% {
-    color: #0c84ff;
+    color: #0c85ff;
     background: #001f3f; }
 
   14% {
-    color: #40a6ff;
+    color: #40a9ff;
     background: #0074d9; }
 
   21% {
-    color: #00a5e5;
+    color: #00a8e5;
     background: #7fdbff; }
 
   28% {
@@ -674,7 +795,7 @@ body {
     background: #3d9970; }
 
   42% {
-    color: #124f19;
+    color: #124f18;
     background: #2ecc40; }
 
   49% {
@@ -682,23 +803,23 @@ body {
     background: #01ff70; }
 
   56% {
-    color: #665800;
+    color: #665700;
     background: #ffdc00; }
 
   63% {
-    color: #ffd7b4;
+    color: #ffd6b4;
     background: #ff851b; }
 
   70% {
-    color: #ffd2cf;
+    color: #ffd1cf;
     background: #ff4136; }
 
   77% {
-    color: #e44e97;
+    color: #e44e99;
     background: #85144b; }
 
   84% {
-    color: #f9a2e5;
+    color: #f9a2e6;
     background: #f012be; }
 
   91% {
@@ -723,5 +844,4 @@ body {
 
 .pulsate-bg {
   -webkit-animation: pulsate 100s linear infinite;
-  -moz-animation: pulsate 100s linear infinite;
   animation: pulsate 100s linear infinite; }
