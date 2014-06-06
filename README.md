@@ -20,7 +20,7 @@ git clone git@github.com:mrmrs/colors.git
 ```
 * Install through npm
 ```bash
-npm install colors.css
+npm install --save-dev colors.css
 ```
 * Install the ruby gem
 ```
