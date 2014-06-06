@@ -13,21 +13,22 @@ This is a set of sass/less/stylus/css variables and css classes that can help fi
 
 You can get the code a few different ways
 
-* Download a zip from this page
-* Clone / fork the repo through git
+Download a zip from this page
+
+Clone / fork the repo through git
 ```bash
 git clone git@github.com:mrmrs/colors.git
 ```
-* Install through npm
+
+Install through npm
 ```bash
 npm install --save-dev colors.css
 ```
-* Install the ruby gem
+
+Install the ruby gem
 ```
 gem install clrs
 ```
-
-
 
 ### Using the css
 Simply copy colors.css to your css directory and include the file like so in the head of your html document
