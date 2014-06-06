@@ -25,7 +25,7 @@ Install through npm
 npm install --save-dev colors.css
 ```
 
-Install the ruby gem
+Install the [ruby gem](http://rubygems.org/gems/clrs)
 ```
 gem install clrs
 ```
