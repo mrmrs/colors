@@ -1,10 +1,11 @@
-/*
- *
- * colors.css
- * @mrmrs
- * MIT
- *
- */
+/***
+
+   colors.css v2.0.0
+   http://clrs.cc
+   @mrmrs
+   MIT License
+
+***/
 
 :root {
   var-aqua:   #7FDBFF;
@@ -68,12 +69,68 @@
 .gray {       color: var(gray);    }
 .black {      color: var(black);   }
 
-/* Links */
+/* Border colors 
 
-a { transition: color .3s ease-in-out; }
+   Use with another border utility that sets border-width and style 
+   i.e .border { border-width: 1px; border-style: solid; }     
+*/
 
-a:link    { color: var(blue); }
-a:visited { color: var(purple); }
-a:hover   { color: var(aqua); }
-a:active  { color: var(orange); }
+.border--navy {    border-color: var(navy); }
+.border--blue {    border-color: var(blue); }
+.border--aqua {    border-color: var(aqua); }
+.border--teal {    border-color: var(teal); }
+.border--olive {   border-color: var(olive); }
+.border--green {   border-color: var(green); }
+.border--lime {    border-color: var(lime); }
+.border--yellow {  border-color: var(yellow); }
+.border--orange {  border-color: var(orange); }
+.border--red {     border-color: var(red); }
+.border--fuchsia { border-color: var(fuchsia); }
+.border--purple {  border-color: var(purple); }
+.border--maroon {  border-color: var(maroon); }
+.border--white {   border-color: var(white); }
+.border--gray {    border-color: var(gray); }
+.border--silver {  border-color: var(silver); }
+.border--black {   border-color: var(black); }
+
+
+/* Fills for SVG */
+
+.fill-navy {    fill: var(navy); }
+.fill-blue {    fill: var(blue); }
+.fill-aqua {    fill: var(aqua); }
+.fill-teal {    fill: var(teal); }
+.fill-olive {   fill: var(olive); }
+.fill-green {   fill: var(green); }
+.fill-lime {    fill: var(lime); }
+.fill-yellow {  fill: var(yellow); }
+.fill-orange {  fill: var(orange); }
+.fill-red {     fill: var(red); }
+.fill-fuchsia { fill: var(fuchsia); }
+.fill-purple {  fill: var(purple); }
+.fill-maroon {  fill: var(maroon); }
+.fill-white {   fill: var(white); }
+.fill-gray {    fill: var(gray); }
+.fill-silver {  fill: var(silver); }
+.fill-black {   fill: var(black); }
+
+/* Strokes for SVG */
+
+.stroke-navy {    stroke: var(navy); }
+.stroke-blue {    stroke: var(blue); }
+.stroke-aqua {    stroke: var(aqua); }
+.stroke-teal {    stroke: var(teal); }
+.stroke-olive {   stroke: var(olive); }
+.stroke-green {   stroke: var(green); }
+.stroke-lime {    stroke: var(lime); }
+.stroke-yellow {  stroke: var(yellow); }
+.stroke-orange {  stroke: var(orange); }
+.stroke-red {     stroke: var(red); }
+.stroke-fuchsia { stroke: var(fuchsia); }
+.stroke-purple {  stroke: var(purple); }
+.stroke-maroon {  stroke: var(maroon); }
+.stroke-white {   stroke: var(white); }
+.stroke-gray {    stroke: var(gray); }
+.stroke-silver {  stroke: var(silver); }
+.stroke-black {   stroke: var(black); }
 
