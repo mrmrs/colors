@@ -42,7 +42,7 @@ gulp.task('sass', function(){
 
 // Task to minify colors.css then rename as colors.min.css
 
-gulp.task('minify-css', function(){
+gulp.task('minify', function(){
   gulp.src('./css/colors.css')
     .pipe(minifyCSS())
     .pipe(size({gzip: true, showFiles: true, title:'minified colors.css'}))

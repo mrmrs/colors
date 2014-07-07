@@ -7,7 +7,7 @@ View the project page at [http://clrs.cc](http://clrs.cc "Colors: Better colors 
 ## What is this?
 
 A simple color palette for the web. Let's be honest, out of the box, the color strings that css provides aren't... the tops.
-This is a set of sass/less/stylus/css variables and css classes that can help fix that.
+This is a set of sass/less/stylus/css variables and css classes that can help fix that with just 647B of minified and gzipped css.
 
 ## Install colors.css
 
@@ -77,17 +77,13 @@ Recompile myth/colors.css to css/colors.css everytime myth/colors.css is updated
 gulp myth
 ```
 
-If you would like to minify ./css/colors.css you can just run
+If you would like to minify ./css/colors.css to .css/colors.min.css you can just run
 ```bash
 gulp minify
 ```
 
 * Except for less which doesn't seem well supported with gulp yet. Hopefully we can
 better support less soon.
-
-If you are compiling less and want to run autoprefixer - you can run that on compiled css with
-```
-```
 
 ## Directory structure
 ```
@@ -105,7 +101,6 @@ If you are compiling less and want to run autoprefixer - you can run that on com
           ├── js
           │   └── colors.js
           ├── less
-          │   ├── _links.less
           │   ├── _skins.less
           │   ├── _variables.less
           │   └── colors.less
@@ -113,14 +108,12 @@ If you are compiling less and want to run autoprefixer - you can run that on com
           │   └── colors.css
           ├── package.json
           ├── sass
-          │   ├── _links.scss
           │   ├── _skins.scss
           │   ├── _variables.scss
           │   └── colors.scss
           ├── site.css
           └── stylus
               ├── colors.styl
-              ├── links.styl
               ├── skins.styl
               └── variables.styl
 
