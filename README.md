@@ -9,6 +9,19 @@ View the project page at [http://clrs.cc](http://clrs.cc "Colors: Better colors 
 A simple color palette for the web. Let's be honest, out of the box, the color strings that css provides aren't... the tops.
 This is a set of sass/less/stylus/css variables and css classes that can help fix that with just 647B of minified and gzipped css.
 
+(Uncompressed is just 888B)
+
+colors.css provides utilities to apply backgrounds, text-color, border colors for both html and svg elements. 
+
+# Example
+```
+.blue {         color: $blue; }
+.bg-blue {      backgroundcolor: $blue; }
+.border--blue { border-color: $blue; }
+.fill-blue {    fill: $blue; }
+.stroke-blue {  stroke: $blue; }
+```
+
 ## Install colors.css
 
 You can get the code a few different ways
