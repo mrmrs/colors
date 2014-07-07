@@ -3,24 +3,16 @@
 var gulp = require('gulp'),
     gutil = require('gulp-util'),
     watch = require('gulp-watch'),
-    lr    = require('tiny-lr'),
-    server = lr(),
-    livereload = require('gulp-livereload'),
     prefix = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-minify-css'),
     sass = require('gulp-sass'),
     myth = require('gulp-myth'),
     stylus = require('gulp-stylus'),
-    csslint = require('gulp-csslint');
-
-
-// Task to minify all css files in the css directory
-
-gulp.task('minify', function(){
-  gulp.src('./css/*.css')
-    .pipe(minifyCSS({keepSpecialComments: 0}))
-    .pipe(gulp.dest('./css/'));
-});
+    rename = require('gulp-rename'),
+    size = require('gulp-size'),
+    csslint = require('gulp-csslint')
+    browserSync = require('browser-sync'),
+    browserReload = browserSync.reload;
 
 
 // Use csslint without box-sizing or compatible vendor prefixes (these
@@ -37,24 +29,36 @@ gulp.task('lint', function(){
 });
 
 // Task that compiles scss files down to good old css
-
 gulp.task('sass', function(){
-  gulp.src('./sass/*.scss')
+  gulp.src('./sass/colors.scss')
       .pipe(watch(function(files) {
-        return files.pipe(sass({includePaths: ['./sass/']}))
+        return files.pipe(sass())
           .pipe(prefix())
-          .pipe(gulp.dest('./css/'))
-          .pipe(livereload(server));
+          .pipe(size({gzip: true, showFiles: true, title:'unminified colors.css'}))
+          .pipe(gulp.dest('css'))
+          .pipe(browserSync.reload({stream:true}));
       }));
+});
+
+// Task to minify colors.css then rename as colors.min.css
+
+gulp.task('minify-css', function(){
+  gulp.src('./css/colors.css')
+    .pipe(minifyCSS())
+    .pipe(size({gzip: true, showFiles: true, title:'minified colors.css'}))
+    .pipe(rename('colors.min.css'))
+    .pipe(gulp.dest('./css/'));
 });
 
 // Task that compiles css using the myth processor
 
 gulp.task('myth', function(){
   gulp.src('./myth/*.css')
-      .pipe(myth())
+    .pipe(watch(function(files) {
+      return files.pipe(myth())
       .pipe(prefix())
       .pipe(gulp.dest('./css/'));
+    }));
 });
 
 
@@ -71,9 +75,22 @@ gulp.task('stylus', function(){
       .pipe(watch(function(files) {
         return files.pipe(stylus())
         .pipe(prefix())
-        .pipe(gulp.dest('./css/'))
-        .pipe(livereload(server));
+        .pipe(gulp.dest('./css/'));
       }));
+});
+
+// Initialize browser-sync which starts a static server also allows for 
+// browsers to reload on filesave
+gulp.task('browser-sync', function() {
+    browserSync.init(null, {
+        server: {
+            baseDir: "./"
+        }
+    });
+});
+
+gulp.task('bs-reload', function () {
+    browserSync.reload();
 });
 
 /*
@@ -88,10 +105,8 @@ gulp.task('stylus', function(){
 */
 
 gulp.task('default', function(){
-  server.listen(35729, function (err) {
-    gulp.watch(['./sass/*.scss'], function(event) {
+    gulp.watch(['./sass/colors.scss'], function(event) {
       gulp.run('sass', 'lint');
     });
-  });
 });
 

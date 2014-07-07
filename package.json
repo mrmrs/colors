@@ -1,6 +1,6 @@
 {
   "name": "colors.css",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "homepage": "http://clrs.cc",
   "description": "Better colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.",
   "keywords": [
@@ -15,26 +15,26 @@
     "less"
   ],
   "devDependencies": {
-    "gulp": "~3.5.5",
-    "gulp-livereload": "~0.2.0",
-    "gulp-minify-css": "~0.2.0",
-    "tiny-lr": "0.0.5",
-    "gulp-util": "~2.2.12",
-    "gulp-watch": "~0.5.0",
+    "browser-sync": "^1.1.2",
+    "gulp": "~3.8.2",
+    "gulp-autoprefixer": "0.0.7",
     "gulp-csslint": "~0.1.3",
-    "gulp-sass": "~0.4.1",
-    "gulp-stylus": "0.0.11",
+    "gulp-minify-css": "~0.3.5",
     "gulp-myth": "~0.1.1",
-    "gulp-autoprefixer": "0.0.5"
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "~0.7.2",
+    "gulp-size": "^0.4.0",
+    "gulp-stylus": "0.0.11",
+    "gulp-util": "~2.2.12",
+    "gulp-watch": "~0.6.8"
   },
-  "repository" :
-    {
-      "type" : "git",
-      "url" : "http://github.com/mrmrs/colors.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/colors.git"
   },
   "bugs": {
-    "url" : "http://github.com/mrmrs/colors/issues",
-    "email" : "hi@mrmrs.cc"
+    "url": "http://github.com/mrmrs/colors/issues",
+    "email": "hi@mrmrs.cc"
   },
   "author": {
     "name": "@mrmrs",
@@ -42,16 +42,38 @@
     "url": "http://mrmrs.cc"
   },
   "contributors": [
-    { "name": "@mrmrs", "email": "hi@mrmrs.cc" },
-    { "name": "@ilanbiala"},
-    { "name": "@kdrdgn", "email": "hi@mrmrs.cc", "url": "http://www.twitter.com/kdrdgn" },
-    { "name": "@tenmilestereo", "url": "http://www.lewiscowper.com" },
-    { "name": "@nschonni", "email": "nschonni@gmail.com", "url": "http://wet-boew.github.io/" },
-    { "name": "SiR-DanieL" },
-    { "name": "@enyo", "email": "m@tias.me", "url": "http://colorglare.com" }
+    {
+      "name": "@mrmrs",
+      "email": "hi@mrmrs.cc"
+    },
+    {
+      "name": "@ilanbiala"
+    },
+    {
+      "name": "@kdrdgn",
+      "email": "hi@mrmrs.cc",
+      "url": "http://www.twitter.com/kdrdgn"
+    },
+    {
+      "name": "@tenmilestereo",
+      "url": "http://www.lewiscowper.com"
+    },
+    {
+      "name": "@nschonni",
+      "email": "nschonni@gmail.com",
+      "url": "http://wet-boew.github.io/"
+    },
+    {
+      "name": "SiR-DanieL"
+    },
+    {
+      "name": "@enyo",
+      "email": "m@tias.me",
+      "url": "http://colorglare.com"
+    }
   ],
   "engines": {
     "node": "=>0.10.22"
   },
-  "license" : "MIT"
+  "license": "MIT"
 }
