@@ -1,0 +1,7 @@
+body { margin: 0; padding: 0; font-family: avenir, 'avenir next', helvetica, 'comic sans', arial, sans-serif; }
+.mega { font-size: 2.5rem; }
+.small { font-size: 1rem; }
+.thin { font-weight: 100; }
+.pvl { padding: 1rem; }
+.tc { text-align: center; }
+.title { text-transform: uppercase; letter-spacing: .14em; }

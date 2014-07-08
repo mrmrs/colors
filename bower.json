@@ -1,0 +1,27 @@
+{
+	"name": "Colors",
+	"version": "0.2.0",
+	"homepage": "https://github.com/mrmrs/colors",
+	"authors": [
+		"@mrmrs <hi@mrmmrs.cc>"
+	],
+	"description": "Better colors for the web.",
+	"keywords": [
+		"colors",
+		"web",
+		"hex",
+		"sass",
+		"scss",
+		"coffee",
+		"less",
+		"stylus",
+		"myth",
+		"css",
+		"better colors"
+	],
+	"license": "MIT",
+	"ignore": [
+		"index.html",
+		"site.css"
+	]
+}
