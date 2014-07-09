@@ -104,9 +104,11 @@ gulp.task('bs-reload', function () {
 
 */
 
-gulp.task('default', function(){
-    gulp.watch(['./sass/colors.scss'], function(event) {
-      gulp.run('sass', 'lint');
-    });
+
+gulp.task('default', ['sass', 'minify', 'bs-reload', 'browser-sync'], function(){
+  gulp.start('sass', 'lint');
+  gulp.watch('sass/*.scss', ['sass', 'minify']);
+  gulp.watch('css/i.css', ['bs-reload']);
+  gulp.watch('index.html', ['bs-reload']);
 });
 
