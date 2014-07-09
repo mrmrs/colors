@@ -761,45 +761,18 @@ body {
 .serif {
   font-family: georgia, serif; }
 
-.pvl {
-  padding: 1.25rem 1rem; }
-
 .pvfl {
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
-.pvs {
-  padding: 0rem 0.75rem; }
-
 .pvxl {
   padding: 4rem 1rem; }
-
-.mtl {
-  margin-top: 2rem; }
-
-.mbs {
-  margin-bottom: 0.5rem; }
 
 .tr {
   text-align: right; }
 
 .tc {
   text-align: center; }
-
-.man {
-  margin: 0; }
-
-.pan {
-  padding: 0; }
-
-.pas {
-  padding: 0.5rem; }
-
-.pam {
-  padding: 1rem; }
-
-.ptl {
-  padding-top: 2rem; }
 
 .border-top {
   border-top: 1px solid #ddd; }
@@ -813,26 +786,11 @@ body {
   display: inline-block;
   padding-left: 0; }
 
-.wi-100 {
-  width: 100%; }
-
-.wi-50 {
-  width: 50%; }
-
-.wi-25 {
-  width: 25%; }
-
 .wi-clr {
   width: 6%; }
 
 .wi-blk {
   width: 10%; }
-
-.db {
-  display: block; }
-
-.dib {
-  display: inline-block; }
 
 .mega {
   font-size: 3rem; }

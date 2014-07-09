@@ -1,35 +1,25 @@
 body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
 *, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
 }
 .serif { font-family: georgia, serif; }
 
-.pvl { padding: 1.25rem 1rem; }
 .pvfl { padding-top: 2rem; padding-bottom: 2rem;}
-.pvs { padding: 0rem .75rem; }
 .pvxl { padding: 4rem 1rem; }
-.mtl { margin-top: 2rem; }
-.mbs { margin-bottom: .5rem; }
 .tr { text-align: right; }
 .tc { text-align: center; }
-.man { margin: 0; }
-.pan { padding: 0; }
-.pas { padding: .5rem; }
-.pam { padding: 1rem; }
-.ptl { padding-top: 2rem; }
 
  .border-top { border-top: 1px solid $silver; }
+
  .list { list-style: none; margin-left: 0; padding-left: 0;}
+
  .list-item { display: inline-block; padding-left: 0; }
-.wi-100 { width: 100%; }
-.wi-50 { width: 50%; }
-.wi-25 { width: 25%; }
 
 .wi-clr { width: 6%; }
-
 .wi-blk { width: 10%; }
-.db { display: block; }
-.dib { display: inline-block; }
+
 .mega { font-size: 3rem; }
 .colorssss div {
   height:.5rem;
@@ -46,6 +36,7 @@ body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
 
 .title { text-transform: uppercase; letter-spacing: .2em; }
 .btn { display: inline-block; white-space: nowrap; border-radius: 3px; margin-bottom: .5rem; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out;}
+
 .btn:hover { background-color: $aqua; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
 .btn:active { background-color: $teal; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
 .lnk { text-decoration: none; }
