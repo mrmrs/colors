@@ -4,6 +4,12 @@ body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
   -webkit-box-sizing: border-box; 
   box-sizing: border-box;
 }
+
+a:link { opacity: 1; transition: color .2s; }
+a:visited { transition: color .3s; }
+a:hover { opacity: .5; transition: color .3s; }
+a:active  { transition: color .2s; }
+
 .serif { font-family: georgia, serif; }
 
 .pvfl { padding-top: 2rem; padding-bottom: 2rem;}
@@ -39,6 +45,7 @@ body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
 
 .btn:hover { background-color: $aqua; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
 .btn:active { background-color: $teal; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
+
 .lnk { text-decoration: none; }
 
 .cf:before,
