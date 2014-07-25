@@ -10,8 +10,10 @@
 */
 
 @mixin skin-setup($property, $namespace: "") {
-  @each $name, $color in $colors {
-    .#{$namespace}#{$name} { #{$property}: $color; }
+  @each $color in $colors {
+    $name: nth($color, 1);
+    $value: nth($color, 2);
+    .#{$namespace}#{$name} { #{$property}: $value; }
   }
 }
 
