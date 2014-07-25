@@ -32,3 +32,24 @@ $silver: #ddd;
 $gray:   #aaa;
 $black:  #111;
 
+// List of all colors
+
+$colors: (
+  'navy':    $navy,
+  'blue':    $blue,
+  'aqua':    $aqua,
+  'teal':    $teal,
+  'olive':   $olive,
+  'green':   $green,
+  'lime':    $lime,
+  'yellow':  $yellow,
+  'orange':  $orange,
+  'red':     $red,
+  'fuchsia': $fuchsia,
+  'purple':  $purple,
+  'maroon':  $maroon,
+  'white':   $white,
+  'gray':    $gray,
+  'silver':  $silver,
+  'black':   $black
+);
