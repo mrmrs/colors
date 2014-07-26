@@ -75,5 +75,8 @@
   "engines": {
     "node": "=>0.10.22"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp"
+  }
 }
