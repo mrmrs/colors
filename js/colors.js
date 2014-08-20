@@ -13,6 +13,7 @@ var colors = {
 	yellow: "#FFDC00",
 	fuchsia: "#F012BE",
 	gray: "#aaa",
+	grey: "#aaa",
 	white: "#fff",
 	black: "#111",
 	silver: "#ddd"
