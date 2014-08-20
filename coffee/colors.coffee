@@ -18,6 +18,7 @@ colors =
 
   # Gray Scale Colors
   gray: '#aaa'
+  grey: '#aaa'
   white: '#fff'
   black: '#111'
   silver: '#ddd'

@@ -62,6 +62,9 @@
 .bg-gray {
   background-color: #aaa; }
 
+.bg-grey {
+  background-color: #aaa; }
+
 .bg-silver {
   background-color: #ddd; }
 
@@ -117,6 +120,9 @@
 .gray {
   color: #aaa; }
 
+.grey {
+  color: #aaa; }
+
 .black {
   color: #111; }
 
@@ -168,6 +174,9 @@
   border-color: #fff; }
 
 .border--gray {
+  border-color: #aaa; }
+
+.border--grey {
   border-color: #aaa; }
 
 .border--silver {
@@ -222,6 +231,9 @@
 .fill-gray {
   fill: #aaa; }
 
+.fill-grey {
+  fill: #aaa; }
+
 .fill-silver {
   fill: #ddd; }
 
@@ -272,6 +284,9 @@
   stroke: #fff; }
 
 .stroke-gray {
+  stroke: #aaa; }
+
+.stroke-grey {
   stroke: #aaa; }
 
 .stroke-silver {

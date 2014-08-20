@@ -24,6 +24,7 @@
   --white:  #fff;
   --silver: #ddd;
   --gray:   #aaa;
+  --grey:   #aaa;
   --black:  #111;
 }
 
@@ -45,6 +46,7 @@
 .bg-maroon {  background-color: var(--maroon);  }
 .bg-white {   background-color: var(--white);   }
 .bg-gray {    background-color: var(--gray);    }
+.bg-grey {    background-color: var(--grey);    }
 .bg-silver {  background-color: var(--silver);  }
 .bg-black {   background-color: var(--black);   }
 
@@ -67,6 +69,7 @@
 .white {      color: var(--white);   }
 .silver {     color: var(--silver);  }
 .gray {       color: var(--gray);    }
+.grey {       color: var(--grey);    }
 .black {      color: var(--black);   }
 
 /* Border colors 
@@ -90,6 +93,7 @@
 .border--maroon {  border-color: var(--maroon); }
 .border--white {   border-color: var(--white); }
 .border--gray {    border-color: var(--gray); }
+.border--grey {    border-color: var(--grey); }
 .border--silver {  border-color: var(--silver); }
 .border--black {   border-color: var(--black); }
 
@@ -111,6 +115,7 @@
 .fill-maroon {  fill: var(--maroon); }
 .fill-white {   fill: var(--white); }
 .fill-gray {    fill: var(--gray); }
+.fill-grey {    fill: var(--grey); }
 .fill-silver {  fill: var(--silver); }
 .fill-black {   fill: var(--black); }
 
@@ -131,6 +136,6 @@
 .stroke-maroon {  stroke: var(--maroon); }
 .stroke-white {   stroke: var(--white); }
 .stroke-gray {    stroke: var(--gray); }
+.stroke-grey {    stroke: var(--grey); }
 .stroke-silver {  stroke: var(--silver); }
 .stroke-black {   stroke: var(--black); }
-
