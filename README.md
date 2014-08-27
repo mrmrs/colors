@@ -17,7 +17,7 @@ colors.css provides utilities to apply backgrounds, text-color, border colors fo
 
 ```scss
 .blue {         color: $blue; }
-.bg-blue {      backgroundcolor: $blue; }
+.bg-blue {      background-color: $blue; }
 .border--blue { border-color: $blue; }
 .fill-blue {    fill: $blue; }
 .stroke-blue {  stroke: $blue; }
