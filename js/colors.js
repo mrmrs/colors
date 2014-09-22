@@ -17,3 +17,10 @@ var colors = {
 	black: "#111",
 	silver: "#ddd"
 };
+
+if(
+	typeof modules !== "undefined" &&
+	typeof modules.exports !== "undefined"
+){
+	modules.exports = colors;
+}
