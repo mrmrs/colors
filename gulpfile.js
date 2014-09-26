@@ -1,16 +1,7 @@
 // Load plugins
 
 var gulp = require('gulp'),
-    gutil = require('gulp-util'),
-    watch = require('gulp-watch'),
-    prefix = require('gulp-autoprefixer'),
-    minifyCSS = require('gulp-minify-css'),
-    sass = require('gulp-sass'),
-    myth = require('gulp-myth'),
-    stylus = require('gulp-stylus'),
-    rename = require('gulp-rename'),
-    size = require('gulp-size'),
-    csslint = require('gulp-csslint')
+    plugins = require('gulp-load-plugins')(),
     browserSync = require('browser-sync'),
     browserReload = browserSync.reload;
 
@@ -20,21 +11,21 @@ var gulp = require('gulp'),
 
 gulp.task('lint', function(){
   gulp.src('./css/*.css')
-    .pipe(csslint({
+    .pipe(plugins.csslint({
           'compatible-vendor-prefixes': false,
           'box-sizing': false
         }))
-    .pipe(csslint.reporter());
+    .pipe(plugins.csslint.reporter());
 
 });
 
 // Task that compiles scss files down to good old css
 gulp.task('sass', function(){
   gulp.src('./sass/colors.scss')
-      .pipe(watch(function(files) {
-        return files.pipe(sass())
-          .pipe(prefix())
-          .pipe(size({gzip: true, showFiles: true, title:'unminified colors.css'}))
+      .pipe(plugins.watch(function(files) {
+        return files.pipe(plugins.sass())
+          .pipe(plugins.autoprefixer())
+          .pipe(plugins.size({gzip: true, showFiles: true, title:'unminified colors.css'}))
           .pipe(gulp.dest('css'))
           .pipe(browserSync.reload({stream:true}));
       }));
@@ -44,9 +35,9 @@ gulp.task('sass', function(){
 
 gulp.task('minify', function(){
   gulp.src('./css/colors.css')
-    .pipe(minifyCSS())
-    .pipe(size({gzip: true, showFiles: true, title:'minified colors.css'}))
-    .pipe(rename('colors.min.css'))
+    .pipe(plugins.minifyCss())
+    .pipe(plugins.size({gzip: true, showFiles: true, title:'minified colors.css'}))
+    .pipe(plugins.rename('colors.min.css'))
     .pipe(gulp.dest('./css/'));
 });
 
@@ -54,9 +45,9 @@ gulp.task('minify', function(){
 
 gulp.task('myth', function(){
   gulp.src('./myth/*.css')
-    .pipe(watch(function(files) {
-      return files.pipe(myth())
-      .pipe(prefix())
+    .pipe(plugins.watch(function(files) {
+      return files.pipe(plugins.myth())
+      .pipe(plugins.autoprefixer())
       .pipe(gulp.dest('./css/'));
     }));
 });
@@ -66,20 +57,20 @@ gulp.task('myth', function(){
 
 gulp.task('prefix', function(){
   gulp.src('./css/*.css')
-      .pipe(prefix())
+      .pipe(plugins.autoprefixer())
       .pipe(gulp.dest('./css/'));
 });
 
 gulp.task('stylus', function(){
   gulp.src('./stylus/colors.styl')
-      .pipe(watch(function(files) {
-        return files.pipe(stylus())
-        .pipe(prefix())
+      .pipe(plugins.watch(function(files) {
+        return files.pipe(plugins.stylus())
+        .pipe(plugins.autoprefixer())
         .pipe(gulp.dest('./css/'));
       }));
 });
 
-// Initialize browser-sync which starts a static server also allows for 
+// Initialize browser-sync which starts a static server also allows for
 // browsers to reload on filesave
 gulp.task('browser-sync', function() {
     browserSync.init(null, {
