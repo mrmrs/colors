@@ -156,5 +156,17 @@
         <h2 class="thin title small">#ffffff</h2>
       </div>
     </section>
+    <script>
+    document.addEventListener('DOMContentLoaded',function(){
+      var i = 14;
+      var headerBG = document.getElementsByTagName('header')[0];
+      var backgroundOptions = ["bg-navy white","bg-blue","bg-aqua","bg-teal","bg-olive","bg-green","bg-lime","bg-yellow","bg-orange","bg-red","bg-maroon","bg-fuchsia","bg-purple","bg-white","bg-silver","bg-gray","bg-black white"];
+
+      setInterval(function() {
+        headerBG.className = "pvxl " + backgroundOptions[i];
+        (i == backgroundOptions.length - 1) ? i = 0 : i++;
+      }, 1000);
+    })
+    </script>
   </body>
 </html>

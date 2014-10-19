@@ -1,5 +1,6 @@
 body { margin: 0; padding: 0; font-family: avenir, 'avenir next', helvetica, 'comic sans', arial, sans-serif; }
-.mega { font-size: 2.5rem; }
+header {-webkit-transition: background-color 300ms linear;-moz-transition: background-color 300ms linear;-o-transition: background-color 300ms linear;-ms-transition: background-color 300ms linear;transition: background-color 300ms linear;}
+.mega { font-size: 2.5rem; padding-top: 0; margin: 0; height:5rem;line-height:5rem;}
 .small { font-size: 1rem; }
 .thin { font-weight: 100; }
 .pvl { padding: 1rem; }
