@@ -9,6 +9,7 @@ var gulp = require('gulp'),
     myth = require('gulp-myth'),
     stylus = require('gulp-stylus'),
     rename = require('gulp-rename'),
+    uncss = require('gulp-uncss'),
     size = require('gulp-size'),
     csslint = require('gulp-csslint')
     browserSync = require('browser-sync'),
@@ -26,6 +27,16 @@ gulp.task('lint', function(){
         }))
     .pipe(csslint.reporter());
 
+});
+
+gulp.task('uncss', function() {
+    return gulp.src('css/colors.min.css')
+        .pipe(uncss({
+            html: ['index.html']
+        }))
+        .pipe(minifyCSS())
+        .pipe(rename('colors.stripped.min.css'))
+        .pipe(gulp.dest('./css'));
 });
 
 // Task that compiles scss files down to good old css
