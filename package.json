@@ -1,6 +1,7 @@
 {
   "name": "colors.css",
   "version": "2.0.0",
+  "main": "js/colors.js",
   "homepage": "http://clrs.cc",
   "description": "Better colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.",
   "keywords": [
