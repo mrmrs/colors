@@ -14,9 +14,10 @@ This is a set of sass/less/stylus/css variables and css classes that can help fi
 colors.css provides utilities to apply backgrounds, text-color, border colors for both html and svg elements. 
 
 # Example
-```
+
+```scss
 .blue {         color: $blue; }
-.bg-blue {      backgroundcolor: $blue; }
+.bg-blue {      background-color: $blue; }
 .border--blue { border-color: $blue; }
 .fill-blue {    fill: $blue; }
 .stroke-blue {  stroke: $blue; }
