@@ -19,8 +19,8 @@ var colors = {
 };
 
 if(
-	typeof modules !== "undefined" &&
-	typeof modules.exports !== "undefined"
+	typeof module !== "undefined" &&
+	typeof module.exports !== "undefined"
 ){
-	modules.exports = colors;
+	module.exports = colors;
 }
