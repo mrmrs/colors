@@ -4,6 +4,10 @@
 
 View the project page at [http://clrs.cc](http://clrs.cc "Colors: Better colors for the web.")
 
+<div align="center">
+  <img src="palette.png"/>
+</div>
+
 ## What is this?
 
 A simple color palette for the web. Let's be honest, out of the box, the color strings that css provides aren't... the tops.
@@ -11,7 +15,7 @@ This is a set of sass/less/stylus/css variables and css classes that can help fi
 
 (Uncompressed is just 888B)
 
-colors.css provides utilities to apply backgrounds, text-color, border colors for both html and svg elements. 
+colors.css provides utilities to apply backgrounds, text-color, border colors for both html and svg elements.
 
 # Example
 
