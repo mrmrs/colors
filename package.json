@@ -81,6 +81,6 @@
     "start": "gulp",
     "minify": "gulp minify",
     "lint": "gulp lint"
-  }
+  },
   "license": "MIT"
 }
