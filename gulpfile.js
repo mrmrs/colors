@@ -44,6 +44,7 @@ gulp.task('sass', function(){
 
 gulp.task('minify', function(){
   gulp.src('./css/colors.css')
+    .pipe(size({gzip: true, showFiles: true, title:'minified colors.css'}))
     .pipe(minifyCSS())
     .pipe(size({gzip: true, showFiles: true, title:'minified colors.css'}))
     .pipe(rename('colors.min.css'))
@@ -79,7 +80,7 @@ gulp.task('stylus', function(){
       }));
 });
 
-// Initialize browser-sync which starts a static server also allows for 
+// Initialize browser-sync which starts a static server also allows for
 // browsers to reload on filesave
 gulp.task('browser-sync', function() {
     browserSync.init(null, {
