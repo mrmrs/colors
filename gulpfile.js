@@ -32,6 +32,7 @@ gulp.task('lint', function(){
 gulp.task('uncss', function() {
     return gulp.src('css/colors.min.css')
         .pipe(uncss({
+            ignore: ['a:link','a:hover','a:visited','a:active', 'a:focus','.carbonad', '.carbon-wrap', '.carbon-poweredby', '.carbon-text', '.carbon-img', '.carbon-ad a:visited', '.carbonad a:link'],
             html: ['index.html']
         }))
         .pipe(minifyCSS())
@@ -90,7 +91,7 @@ gulp.task('stylus', function(){
       }));
 });
 
-// Initialize browser-sync which starts a static server also allows for 
+// Initialize browser-sync which starts a static server also allows for
 // browsers to reload on filesave
 gulp.task('browser-sync', function() {
     browserSync.init(null, {

@@ -26,6 +26,7 @@
 
 /* Cool */
 .aqua {     color:#7FDBFF;}
+.site-footer .aqua {     color: #7FDBFF; opacity: 0.5; }
 .blue {     color:#0074D9;}
 .navy {     color:#001F3F;}
 .teal {     color:#39CCCC;}
@@ -42,10 +43,13 @@
 .fuchsia {  color:#F012BE;}
 
 /* Gray Scale */
-.silver {   color:#ddd;}
-.gray {     color:#aaa;}
-.white {    color:$white;}
-.black {    color:$black;}
+.silver {   color: #ddd;}
+.gray {     color: #aaa;}
+.dark-gray { color: #444;}
+.dark-gray:link { color: #444;}
+.dark-gray:visited { color: #444;}
+.white {    color: $white;}
+.black {    color: $black;}
 
 .border--aqua {    border-color:#7FDBFF;}
 .border--black {   border-color:$black;}

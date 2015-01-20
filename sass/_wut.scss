@@ -1,11 +1,11 @@
 body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
 *, *:before, *:after {
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-a:link { opacity: 1; transition: color .2s; }
+a:link { opacity: 1; transition: color .2s; text-decoration: none; }
 a:visited { transition: color .3s; }
 a:hover { opacity: .5; transition: color .3s; }
 a:active  { transition: color .2s; }
@@ -117,3 +117,22 @@ a:active  { transition: color .2s; }
 
 .mw-160 { min-width: 160px; }
 .center { margin-left: auto; margin-right: auto; }
+
+.carbonad {
+  margin-right: auto; margin-left: auto;
+  font-size: 13px;
+  max-width: 20rem;
+  padding: 1rem;
+  border-radius: .25rem;
+  background: rgba(255,255,255, 0.1);
+}
+.carbonad a:link { color: #eee; }
+.carbonad a:visited { color: #eee; }
+
+.carbonad .carbon-wrap { display: block; overflow: hidden; }
+.carbonad .carbon-wrap .carbon-img { float: left; margin-right: 1rem; }
+.carbonad .carbon-wrap .carbon-text { float:none; overflow:hidden; display: block; font-size: 13px; }
+.carbonad .carbon-poweredby:link { color: rgba(255,255,255,.75); }
+.carbonad .carbon-poweredby:visited { color: rgba(255,255,255,.75); }
+
+.bg-near-white { background-color: #f3f3f3; }
