@@ -84,16 +84,22 @@ a:active  { transition: color .2s; }
 
 
 .w-12-5 { width: 12.5%; overflow:hidden; }
+.w-20 {  width: 20%; }
 .w-25 {  width: 25%; }
+.w-40 {  width: 40%; }
 .w-50 {  width: 50%; }
+.w-60 {  width: 60%; }
 .w-75 {  width: 75%; }
 .w-100 { width: 100%; }
 
 .border { border-width: 1px; border-style: solid; }
 
 @media screen and (min-width: 48em) {
+  .w-20-ns {  width: 20%; }
   .w-25-ns {  width: 25%; }
+  .w-40-ns {  width: 40%; }
   .w-50-ns {  width: 50%; }
+  .w-60-ns {  width: 60%; }
   .w-75-ns {  width: 75%; }
   .w-100-ns { width: 100%; }
   .w-12-5-ns { width: 12.5%; overflow:hidden; }
