@@ -5,10 +5,10 @@ body { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
   box-sizing: border-box;
 }
 
-a:link { opacity: 1; transition: color .2s; text-decoration: none; }
-a:visited { transition: color .3s; }
-a:hover { opacity: .5; transition: color .3s; }
-a:active  { transition: color .2s; }
+a:link { opacity: 1; transition: opacity .15s ease-out; text-decoration: none; }
+a:hover { opacity: .5; transition: opacity .15s ease-out; }
+a:active  { opacity: .7; transition: opacity .15s ease-out; }
+a:focus  { opacity: .7; transition: opacity .16s ease-out; }
 
 .serif { font-family: georgia, serif; }
 
@@ -39,6 +39,7 @@ a:active  { transition: color .2s; }
 .fl { float: left; }
 
 .thin { font-weight: 100; }
+.bold { font-weight: 700; }
 
 .title { text-transform: uppercase; letter-spacing: .2em; }
 .btn { display: inline-block; white-space: nowrap; border-radius: 3px; margin-bottom: .5rem; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out;}
@@ -122,6 +123,7 @@ a:active  { transition: color .2s; }
 }
 
 .mw-160 { min-width: 160px; }
+.mw-64 { max-width: 64em; }
 .center { margin-left: auto; margin-right: auto; }
 
 .carbonad {
@@ -142,3 +144,5 @@ a:active  { transition: color .2s; }
 .carbonad .carbon-poweredby:visited { color: rgba(255,255,255,.75); }
 
 .bg-near-white { background-color: #f3f3f3; }
+
+

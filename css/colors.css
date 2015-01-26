@@ -399,7 +399,7 @@ td, th {
 
 .site-footer .aqua {
   color: #7FDBFF;
-  opacity: 0.5; }
+  opacity: 0.8; }
 
 .blue {
   color: #0074D9; }
@@ -773,22 +773,24 @@ body {
 
 a:link {
   opacity: 1;
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s;
+  -webkit-transition: opacity 0.15s ease-out;
+  transition: opacity 0.15s ease-out;
   text-decoration: none; }
-
-a:visited {
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s; }
 
 a:hover {
   opacity: 0.5;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s; }
+  -webkit-transition: opacity 0.15s ease-out;
+  transition: opacity 0.15s ease-out; }
 
 a:active {
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s; }
+  opacity: 0.7;
+  -webkit-transition: opacity 0.15s ease-out;
+  transition: opacity 0.15s ease-out; }
+
+a:focus {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.16s ease-out;
+  transition: opacity 0.16s ease-out; }
 
 .serif {
   font-family: georgia, serif; }
@@ -847,6 +849,9 @@ a:active {
 
 .thin {
   font-weight: 100; }
+
+.bold {
+  font-weight: 700; }
 
 .title {
   text-transform: uppercase;
@@ -983,6 +988,9 @@ a:active {
 
 .mw-160 {
   min-width: 160px; }
+
+.mw-64 {
+  max-width: 64em; }
 
 .center {
   margin-left: auto;
