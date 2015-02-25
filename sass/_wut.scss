@@ -42,10 +42,11 @@ a:focus  { opacity: .7; transition: opacity .16s ease-out; }
 .bold { font-weight: 700; }
 
 .title { text-transform: uppercase; letter-spacing: .2em; }
-.btn { display: inline-block; white-space: nowrap; border-radius: 3px; margin-bottom: .5rem; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out;}
+.btn { opacity: 1; display: inline-block; white-space: nowrap; border-radius: 3px;
+margin-bottom: .5rem; transition: opacity .4s ease-in-out;;}
 
-.btn:hover { background-color: $aqua; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
-.btn:active { background-color: $teal; transition: background-color .4s ease-in-out;-webkit-transition: background-color .4s ease-in-out; }
+.btn:hover {  opacity: .7; transition: opacity .3s ease-in-out; }
+.btn:active { opacity: .6; transition: opacity .3s ease-in-out; }
 
 .lnk { text-decoration: none; }
 
@@ -145,4 +146,5 @@ a:focus  { opacity: .7; transition: opacity .16s ease-out; }
 
 .bg-near-white { background-color: #f3f3f3; }
 
+.border-2 { border-width: 2px; border-radius: 4px; }
 

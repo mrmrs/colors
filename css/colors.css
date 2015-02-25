@@ -858,22 +858,23 @@ a:focus {
   letter-spacing: 0.2em; }
 
 .btn {
+  opacity: 1;
   display: inline-block;
   white-space: nowrap;
   border-radius: 3px;
   margin-bottom: 0.5rem;
-  transition: background-color 0.4s ease-in-out;
-  -webkit-transition: background-color 0.4s ease-in-out; }
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out; }
 
 .btn:hover {
-  background-color: #7FDBFF;
-  transition: background-color 0.4s ease-in-out;
-  -webkit-transition: background-color 0.4s ease-in-out; }
+  opacity: 0.7;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
 
 .btn:active {
-  background-color: #39CCCC;
-  transition: background-color 0.4s ease-in-out;
-  -webkit-transition: background-color 0.4s ease-in-out; }
+  opacity: 0.6;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
 
 .lnk {
   text-decoration: none; }
@@ -1033,6 +1034,10 @@ a:focus {
 
 .bg-near-white {
   background-color: #f3f3f3; }
+
+.border-2 {
+  border-width: 2px;
+  border-radius: 4px; }
 
 /*
    SPACING
