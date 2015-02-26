@@ -667,6 +667,14 @@ td, th {
   background-color: yellow; }
 
 /*
+  Box Sizing
+*/
+div, article, section, main, footer, header, form, fieldset, pre, code, p, input[type="text"], input[type="tel"], input[type="email"], input[type="url"], input[type="password"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*
 
    DISPLAY
 
@@ -993,6 +1001,9 @@ a:focus {
 .mw-64 {
   max-width: 64em; }
 
+.mw-48 {
+  max-width: 48em; }
+
 .center {
   margin-left: auto;
   margin-right: auto; }
@@ -1038,6 +1049,14 @@ a:focus {
 .border-2 {
   border-width: 2px;
   border-radius: 4px; }
+
+article {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.v-mid {
+  vertical-align: middle; }
 
 /*
    SPACING
@@ -2207,6 +2226,9 @@ a:focus {
    TYPE SCALE
 
 */
+.mega-number {
+  font-size: 6rem; }
+
 .f1 {
   font-size: 2rem; }
 
@@ -2226,6 +2248,8 @@ a:focus {
   font-size: 0.75rem; }
 
 @media screen and (min-width: 48em) {
+  .mega-number-ns {
+    font-size: 6rem; }
   .mega-ns {
     font-size: 3rem; }
   .f1-ns {

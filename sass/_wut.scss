@@ -125,6 +125,7 @@ margin-bottom: .5rem; transition: opacity .4s ease-in-out;;}
 
 .mw-160 { min-width: 160px; }
 .mw-64 { max-width: 64em; }
+.mw-48 { max-width: 48em; }
 .center { margin-left: auto; margin-right: auto; }
 
 .carbonad {
@@ -147,4 +148,6 @@ margin-bottom: .5rem; transition: opacity .4s ease-in-out;;}
 .bg-near-white { background-color: #f3f3f3; }
 
 .border-2 { border-width: 2px; border-radius: 4px; }
+article { box-sizing: border-box; }
 
+.v-mid { vertical-align: middle; }

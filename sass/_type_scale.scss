@@ -4,6 +4,7 @@
 
 */
 
+.mega-number { font-size: 6rem; }
 .f1    { font-size: 2rem; }
 .f2    { font-size: 1.75rem; }
 .f3    { font-size: 1.25rem; }
@@ -14,6 +15,7 @@
 
 
 @include break(not-small){
+  .mega-number-ns { font-size: 6rem; }
  .mega-ns { font-size: 3rem; }
  .f1-ns {   font-size: 2rem; }
  .f2-ns {   font-size: 1.5rem; }
