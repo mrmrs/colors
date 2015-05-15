@@ -1,6 +1,6 @@
 {
   "name": "colors.css",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "main": "js/colors.js",
   "style": "css/colors.css",
   "homepage": "http://clrs.cc",
