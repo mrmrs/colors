@@ -138,14 +138,12 @@ better support less soon.
 ```
 
 # Author
-[MRMRS](http://mrmrs.cc "Adam Morse - Designer + Developer in SF")
+[MRMRS](http://mrmrs.cc "Adam Morse - Designer + Developer in Hong Kong")
 
 
 # License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
