@@ -68,6 +68,9 @@
 .bg-black {
   background-color: #111; }
 
+.bg-pitch-black {
+   background-color: #000; }
+
 /* Colors */
 .navy {
   color: #001F3F; }
@@ -120,6 +123,9 @@
 .black {
   color: #111; }
 
+.pitch-black {
+   color: #000; }
+   
 /* Border colors 
 
    Use with another border utility that sets border-width and style 
@@ -175,6 +181,9 @@
 
 .border--black {
   border-color: #111; }
+  
+.border--pitch-black {
+   border-color: #000; }
 
 /* Fills for SVG */
 .fill-navy {
@@ -228,6 +237,9 @@
 .fill-black {
   fill: #111; }
 
+.fill-pitch-black {
+   fill: #000; }
+
 /* Strokes for SVG */
 .stroke-navy {
   stroke: #001F3F; }
@@ -279,3 +291,6 @@
 
 .stroke-black {
   stroke: #111; }
+ 
+.stroke-pitch-black {
+   stroke: #000; }
