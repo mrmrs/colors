@@ -68,6 +68,9 @@
 .bg-black {
   background-color: #111; }
 
+.bg-pitch-black {
+   background-color: #000; }
+
 /* Colors */
 .navy {
   color: #001F3F; }
@@ -120,6 +123,9 @@
 .black {
   color: #111; }
 
+.pitch-black {
+   color: #000; }
+   
 /* Border colors 
 
    Use with another border utility that sets border-width and style 
@@ -175,6 +181,9 @@
 
 .border--black {
   border-color: #111; }
+  
+.border--pitch-black {
+   border-color: #000; }
 
 /* Fills for SVG */
 .fill-navy {
@@ -279,3 +288,4 @@
 
 .stroke-black {
   stroke: #111; }
+ 
