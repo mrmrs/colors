@@ -237,6 +237,9 @@
 .fill-black {
   fill: #111; }
 
+.fill-pitch-black {
+   fill: #000; }
+
 /* Strokes for SVG */
 .stroke-navy {
   stroke: #001F3F; }
@@ -289,3 +292,5 @@
 .stroke-black {
   stroke: #111; }
  
+.stroke-pitch-black {
+   stroke: #000; }
