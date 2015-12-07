@@ -17,7 +17,7 @@ colors =
   fuchsia: '#F012BE'
 
   # Gray Scale Colors
-  gray: '#aaa'
-  white: '#fff'
+  gray: '#AAA'
+  white: '#FFF'
   black: '#111'
-  silver: '#ddd'
+  silver: '#DDD'

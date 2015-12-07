@@ -57,13 +57,13 @@
   background-color: #85144B; }
 
 .bg-white {
-  background-color: #fff; }
+  background-color: #FFF; }
 
 .bg-gray {
-  background-color: #aaa; }
+  background-color: #AAA; }
 
 .bg-silver {
-  background-color: #ddd; }
+  background-color: #DDD; }
 
 .bg-black {
   background-color: #111; }
@@ -109,13 +109,13 @@
   color: #85144B; }
 
 .white {
-  color: #fff; }
+  color: #FFF; }
 
 .silver {
-  color: #ddd; }
+  color: #DDD; }
 
 .gray {
-  color: #aaa; }
+  color: #AAA; }
 
 .black {
   color: #111; }
@@ -165,13 +165,13 @@
   border-color: #85144B; }
 
 .border--white {
-  border-color: #fff; }
+  border-color: #FFF; }
 
 .border--gray {
-  border-color: #aaa; }
+  border-color: #AAA; }
 
 .border--silver {
-  border-color: #ddd; }
+  border-color: #DDD; }
 
 .border--black {
   border-color: #111; }
@@ -217,13 +217,13 @@
   fill: #85144B; }
 
 .fill-white {
-  fill: #fff; }
+  fill: #FFF; }
 
 .fill-gray {
-  fill: #aaa; }
+  fill: #AAA; }
 
 .fill-silver {
-  fill: #ddd; }
+  fill: #DDD; }
 
 .fill-black {
   fill: #111; }
@@ -269,13 +269,13 @@
   stroke: #85144B; }
 
 .stroke-white {
-  stroke: #fff; }
+  stroke: #FFF; }
 
 .stroke-gray {
-  stroke: #aaa; }
+  stroke: #AAA; }
 
 .stroke-silver {
-  stroke: #ddd; }
+  stroke: #DDD; }
 
 .stroke-black {
   stroke: #111; }
