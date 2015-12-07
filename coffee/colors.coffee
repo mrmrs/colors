@@ -17,7 +17,14 @@ colors =
   fuchsia: '#F012BE'
 
   # Gray Scale Colors
+<<<<<<< HEAD
   gray: '#AAAAAA'
   white: '#FFFFFF'
   black: '#111111'
   silver: '#DDDDDD'
+=======
+  gray: '#AAA'
+  white: '#FFF'
+  black: '#111'
+  silver: '#DDD'
+>>>>>>> refs/remotes/origin/master
