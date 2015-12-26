@@ -1,165 +1,196 @@
-# COLORS
+# colors.css 2.3.2
 
-## Better colors for the web.
+Better default colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.
 
-View the project page at [http://clrs.cc](http://clrs.cc "Colors: Better colors for the web.")
+#### Stats
 
-<div align="center">
-  <img src="palette.png"/>
-</div>
+903 | 85 | 85
+---|---|---
+bytes | selectors | declarations
 
-## What is this?
+## Installation
 
-A simple color palette for the web. Let's be honest, out of the box, the color strings that css provides aren't... the tops.
-This is a set of sass/less/stylus/css variables and css classes that can help fix that with just 647B of minified and gzipped css.
+#### With [npm](https://npmjs.com)
 
-(Uncompressed is just 888B)
-
-colors.css provides utilities to apply backgrounds, text-color, border colors for both html and svg elements.
-
-# Example
-
-```scss
-.blue {         color: $blue; }
-.bg-blue {      background-color: $blue; }
-.border--blue { border-color: $blue; }
-.fill-blue {    fill: $blue; }
-.stroke-blue {  stroke: $blue; }
 ```
-
-## Install colors.css
-
-You can get the code a few different ways
-
-Download a zip from this page
-
-Clone / fork the repo through git
-```bash
-git clone git@github.com:mrmrs/colors.git
-```
-
-Install [through npm](https://www.npmjs.org/package/colors.css)
-```bash
 npm install --save-dev colors.css
 ```
 
-Install the [ruby gem](http://rubygems.org/gems/clrs)
+#### With Git
+
 ```
-gem install clrs
+git clone https://github.com/tachyons-css/colors.css
 ```
 
-### Using the css
-Simply copy colors.css to your css directory and include the file like so in the head of your html document
+## Usage
+
+#### Using with [PostCSS](https://github.com/postcss/postcss)
+
+Import the css module
+
+```css
+@import "colors.css";
+```
+
+Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+
+```sh
+$ npm i -g tachyons-cli
+$ tachyons-cli path/to/css-file.css > dist/t.css
+```
+
+#### Using the CSS
+
+The built CSS is located in the `css` directory. It contains an unminified and minified version.
+You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="css/colors.css">
+<link rel="stylesheet" href="path/to/module/css/colors.css">
 ```
 
-### Using sass, stylus, less, and myth
+#### Development
 
-If you'd like to customize colors.css to your liking, you can edit the source in a variety of flavors.
-Colors uses [gulp](http://gulpjs.com "GulpJs - A sweet js taskrunner") as a taskrunner.
-There are individual gulp tasks for each preprocessor*
-Each gulp task also comes with automatic vendor prefix support, csslint output, and livereload updates
-built in.
-It's pretty sweet.
+The source CSS files can be found in the `src` directory.
+Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
 
-First run
+## The CSS
 
-```bash
-npm install -g gulp
+```css
+/*
+
+  COLORS
+  Better default colors for the web
+
+*/
+/* 
+
+   VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+/*
+
+   SKINS
+   - Backgrounds
+   - Colors
+   - Border colors
+   - SVG fills
+   - SVG Strokes
+
+*/
+/* Backgrounds */
+.bg-navy { background-color: #001F3F; }
+.bg-blue { background-color: #0074D9; }
+.bg-aqua { background-color: #7FDBFF; }
+.bg-teal { background-color: #39CCCC; }
+.bg-olive { background-color: #3D9970; }
+.bg-green { background-color: #2ECC40; }
+.bg-lime { background-color: #01FF70; }
+.bg-yellow { background-color: #FFDC00; }
+.bg-orange { background-color: #FF851B; }
+.bg-red { background-color: #FF4136; }
+.bg-fuchsia { background-color: #F012BE; }
+.bg-purple { background-color: #B10DC9; }
+.bg-maroon { background-color: #85144B; }
+.bg-white { background-color: #FFFFFF; }
+.bg-gray { background-color: #AAAAAA; }
+.bg-silver { background-color: #DDDDDD; }
+.bg-black { background-color: #111111; }
+/* Colors */
+.navy { color: #001F3F; }
+.blue { color: #0074D9; }
+.aqua { color: #7FDBFF; }
+.teal { color: #39CCCC; }
+.olive { color: #3D9970; }
+.green { color: #2ECC40; }
+.lime { color: #01FF70; }
+.yellow { color: #FFDC00; }
+.orange { color: #FF851B; }
+.red { color: #FF4136; }
+.fuchsia { color: #F012BE; }
+.purple { color: #B10DC9; }
+.maroon { color: #85144B; }
+.white { color: #FFFFFF; }
+.silver { color: #DDDDDD; }
+.gray { color: #AAAAAA; }
+.black { color: #111111; }
+/* Border colors 
+
+   Use with another border utility that sets border-width and style 
+   i.e .border { border-width: 1px); border-style: solid); }     
+*/
+.border--navy { border-color: #001F3F; }
+.border--blue { border-color: #0074D9; }
+.border--aqua { border-color: #7FDBFF; }
+.border--teal { border-color: #39CCCC; }
+.border--olive { border-color: #3D9970; }
+.border--green { border-color: #2ECC40; }
+.border--lime { border-color: #01FF70; }
+.border--yellow { border-color: #FFDC00; }
+.border--orange { border-color: #FF851B; }
+.border--red { border-color: #FF4136; }
+.border--fuchsia { border-color: #F012BE; }
+.border--purple { border-color: #B10DC9; }
+.border--maroon { border-color: #85144B; }
+.border--white { border-color: #FFFFFF; }
+.border--gray { border-color: #AAAAAA; }
+.border--silver { border-color: #DDDDDD; }
+.border--black { border-color: #111111; }
+/* Fills for SVG */
+.fill-navy { fill: #001F3F; }
+.fill-blue { fill: #0074D9; }
+.fill-aqua { fill: #7FDBFF; }
+.fill-teal { fill: #39CCCC; }
+.fill-olive { fill: #3D9970; }
+.fill-green { fill: #2ECC40; }
+.fill-lime { fill: #01FF70; }
+.fill-yellow { fill: #FFDC00; }
+.fill-orange { fill: #FF851B; }
+.fill-red { fill: #FF4136; }
+.fill-fuchsia { fill: #F012BE; }
+.fill-purple { fill: #B10DC9; }
+.fill-maroon { fill: #85144B; }
+.fill-white { fill: #FFFFFF; }
+.fill-gray { fill: #AAAAAA; }
+.fill-silver { fill: #DDDDDD; }
+.fill-black { fill: #111111; }
+/* Strokes for SVG */
+.stroke-navy { stroke: #001F3F; }
+.stroke-blue { stroke: #0074D9; }
+.stroke-aqua { stroke: #7FDBFF; }
+.stroke-teal { stroke: #39CCCC; }
+.stroke-olive { stroke: #3D9970; }
+.stroke-green { stroke: #2ECC40; }
+.stroke-lime { stroke: #01FF70; }
+.stroke-yellow { stroke: #FFDC00; }
+.stroke-orange { stroke: #FF851B; }
+.stroke-red { stroke: #FF4136; }
+.stroke-fuchsia { stroke: #F012BE; }
+.stroke-purple { stroke: #B10DC9; }
+.stroke-maroon { stroke: #85144B; }
+.stroke-white { stroke: #FFFFFF; }
+.stroke-gray { stroke: #AAAAAA; }
+.stroke-silver { stroke: #DDDDDD; }
+.stroke-black { stroke: #111111; }
 ```
 
-Then
+## Contributing
 
-```bash
-npm install
-```
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
-Once that is complete you can use any preprocessor like so
+## Authors
 
-Recompile everything imported in ./sass/colors.scss to css/colors.css
-everytime a file in the ./sass directory is updated
-```bash
-gulp sass
-```
+* [mrmrs](http://mrmrs.io)
+* [johno](http://johnotander.com)
 
-Recompile everything imported in ./stylus/colors.styl to ./css/colors.css
-everytime a file in the ./stylus directory is updated
-```bash
-gulp stylus
-```
+## License
 
-Recompile myth/colors.css to css/colors.css everytime myth/colors.css is updated
-```bash
-gulp myth
-```
-
-If you would like to minify ./css/colors.css to .css/colors.min.css you can just run
-```bash
-gulp minify
-```
-
-* Except for less which doesn't seem well supported with gulp yet. Hopefully we can
-better support less soon.
-
-## Directory structure
-```
-
-    colors/
-          ├── README.md
-          ├── bower.json
-          ├── coffee
-          │   └── colors.coffee
-          ├── css
-          │   ├── colors.css
-          │   └── colors.min.css
-          ├── gulpfile.js
-          ├── index.html
-          ├── js
-          │   └── colors.js
-          ├── less
-          │   ├── _skins.less
-          │   ├── _variables.less
-          │   └── colors.less
-          ├── myth
-          │   └── colors.css
-          ├── package.json
-          ├── sass
-          │   ├── _skins.scss
-          │   ├── _variables.scss
-          │   └── colors.scss
-          ├── site.css
-          └── stylus
-              ├── colors.styl
-              ├── skins.styl
-              └── variables.styl
-
-```
-
-# Author
-[MRMRS](http://mrmrs.cc "Adam Morse - Designer + Developer in Hong Kong")
-
-
-# License
-
-The MIT License (MIT)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+MIT
 

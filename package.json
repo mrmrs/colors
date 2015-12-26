@@ -4,31 +4,18 @@
   "main": "js/colors.js",
   "style": "css/colors.css",
   "homepage": "http://clrs.cc",
-  "description": "Better colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.",
+  "description": "Better default colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.",
   "keywords": [
     "colors",
     "design",
+    "a11y",
+    "postcss",
     "palette",
     "css",
-    "oocss",
-    "sass",
-    "stylus",
-    "myth",
-    "less"
+    "oocss"
   ],
   "devDependencies": {
-    "browser-sync": "^1.1.2",
-    "gulp": "~3.8.2",
-    "gulp-autoprefixer": "0.0.7",
-    "gulp-csslint": "~0.1.3",
-    "gulp-minify-css": "~0.3.5",
-    "gulp-myth": "~0.1.1",
-    "gulp-rename": "^1.2.0",
-    "gulp-sass": "~0.7.2",
-    "gulp-size": "^0.4.0",
-    "gulp-stylus": "0.0.11",
-    "gulp-util": "~2.2.12",
-    "gulp-watch": "~0.6.8"
+    "tachyons-cli": "^0.3.1"
   },
   "repository": {
     "type": "git",
@@ -77,9 +64,7 @@
     "node": ">=0.10.22"
   },
   "scripts": {
-    "start": "gulp",
-    "minify": "gulp minify",
-    "lint": "gulp lint"
+    "start": "tachyons src/colors.css > css/colors.css && tachyons src/colors.css --minify > css/colors.min.css && tachyons src/colors.css --generate-docs --package=../../package.json > readme.md"
   },
   "license": "MIT"
 }
