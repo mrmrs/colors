@@ -1,4 +1,4 @@
-# colors.css 2.3.2
+# colors.css 3.0.0
 
 Better default colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.
 
