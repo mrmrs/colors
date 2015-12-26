@@ -1,0 +1,119 @@
+/*
+
+   SKINS
+   - Backgrounds
+   - Colors
+   - Border colors
+   - SVG fills
+   - SVG Strokes
+
+*/
+
+
+/* Backgrounds */
+
+.bg-navy {    background-color: var(--navy); }
+.bg-blue {    background-color: var(--blue); }
+.bg-aqua {    background-color: var(--aqua); }
+.bg-teal {    background-color: var(--teal); }
+.bg-olive {   background-color: var(--olive); }
+.bg-green {   background-color: var(--green); }
+.bg-lime {    background-color: var(--lime); }
+.bg-yellow {  background-color: var(--yellow); }
+.bg-orange {  background-color: var(--orange); }
+.bg-red {     background-color: var(--red); }
+.bg-fuchsia { background-color: var(--fuchsia); }
+.bg-purple {  background-color: var(--purple); }
+.bg-maroon {  background-color: var(--maroon); }
+.bg-white {   background-color: var(--white); }
+.bg-gray {    background-color: var(--gray); }
+.bg-silver {  background-color: var(--silver); }
+.bg-black {   background-color: var(--black); }
+
+
+/* Colors */
+
+.navy {       color: var(--navy); }
+.blue {       color: var(--blue); }
+.aqua {       color: var(--aqua); }
+.teal {       color: var(--teal); }
+.olive {      color: var(--olive); }
+.green {      color: var(--green); }
+.lime {       color: var(--lime); }
+.yellow {     color: var(--yellow); }
+.orange {     color: var(--orange); }
+.red {        color: var(--red); }
+.fuchsia {    color: var(--fuchsia); }
+.purple {     color: var(--purple); }
+.maroon {     color: var(--maroon); }
+.white {      color: var(--white); }
+.silver {     color: var(--silver); }
+.gray {       color: var(--gray); }
+.black {      color: var(--black); }
+
+
+/* Border colors 
+
+   Use with another border utility that sets border-width and style 
+   i.e .border { border-width: 1px); border-style: solid); }     
+*/
+
+.border--navy {    border-color: var(--navy); }
+.border--blue {    border-color: var(--blue); }
+.border--aqua {    border-color: var(--aqua); }
+.border--teal {    border-color: var(--teal); }
+.border--olive {   border-color: var(--olive); }
+.border--green {   border-color: var(--green); }
+.border--lime {    border-color: var(--lime); }
+.border--yellow {  border-color: var(--yellow); }
+.border--orange {  border-color: var(--orange); }
+.border--red {     border-color: var(--red); }
+.border--fuchsia { border-color: var(--fuchsia); }
+.border--purple {  border-color: var(--purple); }
+.border--maroon {  border-color: var(--maroon); }
+.border--white {   border-color: var(--white); }
+.border--gray {    border-color: var(--gray); }
+.border--silver {  border-color: var(--silver); }
+.border--black {   border-color: var(--black); }
+
+
+/* Fills for SVG */
+
+.fill-navy {    fill: var(--navy); }
+.fill-blue {    fill: var(--blue); }
+.fill-aqua {    fill: var(--aqua); }
+.fill-teal {    fill: var(--teal); }
+.fill-olive {   fill: var(--olive); }
+.fill-green {   fill: var(--green); }
+.fill-lime {    fill: var(--lime); }
+.fill-yellow {  fill: var(--yellow); }
+.fill-orange {  fill: var(--orange); }
+.fill-red {     fill: var(--red); }
+.fill-fuchsia { fill: var(--fuchsia); }
+.fill-purple {  fill: var(--purple); }
+.fill-maroon {  fill: var(--maroon); }
+.fill-white {   fill: var(--white); }
+.fill-gray {    fill: var(--gray); }
+.fill-silver {  fill: var(--silver); }
+.fill-black {   fill: var(--black); }
+
+/* Strokes for SVG */
+
+.stroke-navy {    stroke: var(--navy); }
+.stroke-blue {    stroke: var(--blue); }
+.stroke-aqua {    stroke: var(--aqua); }
+.stroke-teal {    stroke: var(--teal); }
+.stroke-olive {   stroke: var(--olive); }
+.stroke-green {   stroke: var(--green); }
+.stroke-lime {    stroke: var(--lime); }
+.stroke-yellow {  stroke: var(--yellow); }
+.stroke-orange {  stroke: var(--orange); }
+.stroke-red {     stroke: var(--red); }
+.stroke-fuchsia { stroke: var(--fuchsia); }
+.stroke-purple {  stroke: var(--purple); }
+.stroke-maroon {  stroke: var(--maroon); }
+.stroke-white {   stroke: var(--white); }
+.stroke-gray {    stroke: var(--gray); }
+.stroke-silver {  stroke: var(--silver); }
+.stroke-black {   stroke: var(--black); }
+
