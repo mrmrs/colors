@@ -13,7 +13,7 @@ bytes | selectors | declarations
 
 #### With [npm](https://npmjs.com)
 
-```
+```sh
 npm install --save-dev colors.css
 ```
 
