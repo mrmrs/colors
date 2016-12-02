@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var path = require('path');
+var hexRgb = require('hex-rgb');
+var colors = require('../js/colors');
+
+var order = ['navy', 'blue', 'aqua', 'teal', 'olive', 'green', 'lime', 'yellow',
+    'orange', 'red', 'maroon', 'fuchsia', 'purple', 'black', 'gray', 'silver'];
+
+var palette = {
+  compatibleVersion: '1.4',
+  pluginVersion: '1.4',
+  colors: order.map(function(name) {
+    var rgb = hexRgb(colors[name]);
+    return {
+      red: rgb[0] / 255,
+      green: rgb[1] / 255,
+      blue: rgb[2] / 255,
+      alpha: 1
+    };
+  })
+}
+
+var filePath = path.join(__dirname, '..', 'assets', 'colors.sketchpalette');
+fs.writeFileSync(filePath, JSON.stringify(palette), 'utf8');

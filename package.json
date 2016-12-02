@@ -15,7 +15,8 @@
     "oocss"
   ],
   "devDependencies": {
-    "tachyons-cli": "^0.3.1"
+    "tachyons-cli": "^0.3.1",
+    "hex-rgb": "^1.0.0"
   },
   "repository": {
     "type": "git",
