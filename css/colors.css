@@ -41,6 +41,7 @@
 .bg-gray { background-color: #AAAAAA; }
 .bg-silver { background-color: #DDDDDD; }
 .bg-black { background-color: #111111; }
+.bg-lightblue { background-color: #ADD8E6; }
 /* Colors */
 .navy { color: #001F3F; }
 .blue { color: #0074D9; }
@@ -59,6 +60,8 @@
 .silver { color: #DDDDDD; }
 .gray { color: #AAAAAA; }
 .black { color: #111111; }
+.lightblue { color: #ADD8E6; }
+
 /* Border colors 
 
    Use with another border utility that sets border-width and style 
@@ -81,6 +84,7 @@
 .border--gray { border-color: #AAAAAA; }
 .border--silver { border-color: #DDDDDD; }
 .border--black { border-color: #111111; }
+.border--lightblue { border-color: #ADD8E6; }
 /* Fills for SVG */
 .fill-navy { fill: #001F3F; }
 .fill-blue { fill: #0074D9; }
@@ -99,6 +103,7 @@
 .fill-gray { fill: #AAAAAA; }
 .fill-silver { fill: #DDDDDD; }
 .fill-black { fill: #111111; }
+.fill-lightblue { fill: #ADD8E6; }
 /* Strokes for SVG */
 .stroke-navy { stroke: #001F3F; }
 .stroke-blue { stroke: #0074D9; }
@@ -117,4 +122,6 @@
 .stroke-gray { stroke: #AAAAAA; }
 .stroke-silver { stroke: #DDDDDD; }
 .stroke-black { stroke: #111111; }
+.stroke-lightblue { stroke: #ADD8E6; }
+
 
