@@ -1,0 +1,33 @@
+{
+  "name": "colors",
+  "version": "2.2.0",
+  "authors": [
+    "Adam Morse"
+  ],
+  "description": "Smarter defaults for colors on the web.",
+  "moduleType": "globals",
+  "main": [
+    "css/colors.css",
+    "sass/colors.scss",
+    "less/colors.less",
+    "stylus/colors.styl",
+    "myth/colors.css",
+    "js/colors.js"
+  ],
+  "keywords": [
+    "colors",
+    "css",
+    "sass",
+    "less",
+    "mrmrs"
+  ],
+  "license": "MIT",
+  "homepage": "http://clrs.cc/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
