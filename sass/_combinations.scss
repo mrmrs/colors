@@ -1,0 +1,160 @@
+// mixins and extends to get working combination of background, text and border
+// based on the combinations on http://clrs.cc/
+
+// examples:
+//
+// .my-awesome-class
+//   +navy
+//
+// .my-other-awesome-class
+//   @extend yellow
+
+
+// foreground colors: type and borders
+@mixin dark-foreground($foreground: $black, $border: 0px solid $foreground) {
+  color: $foreground;
+  border: $border;
+}
+
+@mixin light-foreground($foreground: $white, $border: 0px solid $foreground) {
+  color: $foreground;
+  border: $border;
+}
+
+// main color: background color plus either a light or dark foreground mixin
+// provided as mixin and extend placeholder
+@mixin navy {
+  background-color: $navy;
+  @include light-foreground;
+}
+%navy {
+  @include navy;
+}
+
+@mixin blue {
+  background-color: $blue;
+  @include dark-foreground;
+}
+%blue {
+  @include blue;
+}
+
+@mixin aqua {
+  background-color: $aqua;
+  @include dark-foreground;
+}
+%aqua {
+  @include aqua;
+}
+
+@mixin teal {
+  background-color: $teal;
+  @include dark-foreground;
+}
+%teal {
+  @include teal;
+}
+
+@mixin olive {
+  background-color: $olive;
+  @include dark-foreground;
+}
+%olive {
+  @include olive;
+}
+
+@mixin green {
+  background-color: $green;
+  @include dark-foreground;
+}
+%green {
+  @include green;
+}
+
+@mixin lime {
+  background-color: $lime;
+  @include dark-foreground;
+}
+%lime {
+  @include lime;
+}
+
+@mixin yellow {
+  background-color: $yellow;
+  @include dark-foreground;
+}
+%yellow {
+  @include yellow;
+}
+
+@mixin orange {
+  background-color: $orange;
+  @include light-foreground;
+}
+%orange {
+  @include orange;
+}
+
+@mixin red {
+  background-color: $red;
+  @include light-foreground;
+}
+%red {
+  @include red;
+}
+
+@mixin maroon {
+  background-color: $maroon;
+  @include light-foreground;
+}
+%maroon {
+  @include maroon;
+}
+
+@mixin fuchsia {
+  background-color: $fuchsia;
+  @include light-foreground;
+}
+%fuchsia {
+  @include fuchsia;
+}
+
+@mixin purple {
+  background-color: $purple;
+  @include light-foreground;
+}
+%purple {
+  @include purple;
+}
+
+@mixin white {
+  background-color: $white;
+  @include dark-foreground;
+}
+%white {
+  @include white;
+}
+
+@mixin silver {
+  background-color: $silver;
+  @include dark-foreground;
+}
+%silver {
+  @include silver;
+}
+
+@mixin gray {
+  background-color: $gray;
+  @include dark-foreground;
+}
+%gray {
+  @include gray;
+}
+
+@mixin black {
+  background-color: $black;
+  @include light-foreground;
+}
+%black {
+  @include black;
+}
