@@ -95,7 +95,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .bg-red { background-color: #E92C21; }
 .bg-fuchsia { background-color: #F012BE; }
 .bg-purple { background-color: #B10DC9; }
-.bg-maroon { background-color: #85144B; }
+.bg-maroon { background-color: #830606; }
 .bg-white { background-color: #FFFFFF; }
 .bg-gray { background-color: #AAAAAA; }
 .bg-silver { background-color: #DDDDDD; }
@@ -113,7 +113,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .red { color: #E92C21; }
 .fuchsia { color: #F012BE; }
 .purple { color: #B10DC9; }
-.maroon { color: #85144B; }
+.maroon { color: #830606; }
 .white { color: #FFFFFF; }
 .silver { color: #DDDDDD; }
 .gray { color: #AAAAAA; }
@@ -135,7 +135,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .border--red { border-color: #E92C21; }
 .border--fuchsia { border-color: #F012BE; }
 .border--purple { border-color: #B10DC9; }
-.border--maroon { border-color: #85144B; }
+.border--maroon { border-color: #830606; }
 .border--white { border-color: #FFFFFF; }
 .border--gray { border-color: #AAAAAA; }
 .border--silver { border-color: #DDDDDD; }
@@ -153,7 +153,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .fill-red { fill: #E92C21; }
 .fill-fuchsia { fill: #F012BE; }
 .fill-purple { fill: #B10DC9; }
-.fill-maroon { fill: #85144B; }
+.fill-maroon { fill: #830606; }
 .fill-white { fill: #FFFFFF; }
 .fill-gray { fill: #AAAAAA; }
 .fill-silver { fill: #DDDDDD; }
@@ -171,7 +171,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .stroke-red { stroke: #E92C21; }
 .stroke-fuchsia { stroke: #F012BE; }
 .stroke-purple { stroke: #B10DC9; }
-.stroke-maroon { stroke: #85144B; }
+.stroke-maroon { stroke: #830606; }
 .stroke-white { stroke: #FFFFFF; }
 .stroke-gray { stroke: #AAAAAA; }
 .stroke-silver { stroke: #DDDDDD; }
