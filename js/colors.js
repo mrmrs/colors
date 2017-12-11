@@ -8,7 +8,7 @@
     olive:   '#3d9970',
     green:   '#2ecc40',
     red:     '#e92c21',
-    maroon:  '#740c4a',
+    maroon:  '#85144b',
     orange:  '#ff851b',
     purple:  '#b10dc9',
     yellow:  '#ffdc00',
