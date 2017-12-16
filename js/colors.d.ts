@@ -1,0 +1,17 @@
+export const aqua = '#7fdbff';
+export const blue = '#0074d9';
+export const lime = '#01ff70';
+export const navy = '#001f3f';
+export const teal = '#39cccc';
+export const olive = '#3d9970';
+export const green = '#2ecc40';
+export const red = '#ff4136';
+export const maroon = '#85144b';
+export const orange = '#ff851b';
+export const purple = '#b10dc9';
+export const yellow = '#ffdc00';
+export const fuchsia = '#f012be';
+export const gray = '#aaaaaa';
+export const white = '#ffffff';
+export const black = '#111111';
+export const silver = '#dddddd';
