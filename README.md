@@ -63,7 +63,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
   Better default colors for the web
 
 */
-/* 
+/*
 
    VARIABLES
 
@@ -118,9 +118,9 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .silver { color: #DDDDDD; }
 .gray { color: #AAAAAA; }
 .black { color: #111111; }
-/* Border colors 
+/* Border colors
 
-   Use with another border utility that sets border-width and style 
+   Use with another border utility that sets border-width and style
    i.e .border { border-width: 1px); border-style: solid); }     
 */
 .border--navy { border-color: #001F3F; }
@@ -195,3 +195,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 MIT
 
+```
+the end
+```
