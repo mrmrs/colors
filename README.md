@@ -1,5 +1,6 @@
 # [colors.css 3.0.0](http://clrs.cc/)
-
+[![npm](https://img.shields.io/npm/v/colors.css.svg?style=flat-square)](https://www.npmjs.com/package/colors.css)
+[![npm](https://img.shields.io/npm/dm/colors.css.svg)](https://www.npmjs.com/package/colors.css)
 
 Better default colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.
 
