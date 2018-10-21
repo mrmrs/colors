@@ -121,7 +121,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 /* Border colors 
 
    Use with another border utility that sets border-width and style 
-   i.e .border { border-width: 1px); border-style: solid); }     
+   i.e .border { border-width: 1px; border-style: solid; }     
 */
 .border--navy { border-color: #001F3F; }
 .border--blue { border-color: #0074D9; }
