@@ -1,0 +1,76 @@
+// Variables
+@aqua:  #7FDBFF;
+@blue:  #0074D9;
+@navy:  #001F3F;
+@teal:  #39CCCC;
+@green: #2ECC40;
+@olive: #3D9970;
+@lime:  #01FF70;
+@yellow:  #FFDC00;
+@orange:  #FF851B;
+@red:     #FF4136;
+@fuchsia: #F012BE;
+@purple:  #B10DC9;
+@maroon:  #85144B;
+@white:  #FFFFFF;
+@silver: #DDDDDD;
+@gray:   #AAAAAA;
+@black: #111111;
+
+@colors: {
+  aqua: @aqua;
+  blue: @blue;
+  navy: @navy;
+  teal: @teal;
+  olive: @olive;
+  green: @green;
+  lime: @lime;
+  yellow: @yellow;
+  orange: @orange;
+  red: @red;
+  maroon: @maroon;
+  fuchsia: @fuchsia;
+  purple: @purple;
+  black: @black;
+  grey: @gray;
+  silver: @silver;
+}
+
+// Text Colors
+each(@colors, {
+  .@{key} {
+    color: @value;
+  }
+});
+
+// Border Utility
+each(@colors, {
+  .border-@{key} {
+    border-color: @value;
+  }
+});
+/* Remember to use the border utility with other border parameters:
+  border-width: 1px;
+  border-style: solid;
+  */
+
+// Fills
+each(@colors, {
+  .fill-@{key} {
+    fill: @value;
+  }
+});
+
+// Strokes
+each(@colors, {
+  .stroke-@{key} {
+    stroke: @value;
+  }
+});
+
+// Background
+each(@colors, {
+  .bg-@{key} {
+    background-color: @value;
+  }
+});
