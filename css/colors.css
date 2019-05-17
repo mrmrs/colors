@@ -118,3 +118,40 @@
 .stroke-silver { stroke: #DDDDDD; }
 .stroke-black { stroke: #111111; }
 
+
+/* Contrast Background and Foreground*/
+.bg-navy-fg {    background-color: #001F3F;     color: #80BFFF; }
+.bg-blue-fg {    background-color: #0074D9;     color: #B3DBFF; }
+.bg-aqua-fg {    background-color: #7FDBFF;     color: #004966; }
+.bg-teal-fg {    background-color: #39CCCC;     color: #000000; }
+.bg-olive-fg {   background-color: #3D9970;    color: #163728; }
+.bg-green-fg {   background-color: #2ECC40;    color: #0E3E14; }
+.bg-lime-fg {    background-color: #01FF70;     color: #00662C; }
+.bg-yellow-fg {  background-color: #FFDC00;   color: #665800; }
+.bg-orange-fg {  background-color: #FF851B;   color: #663000; }
+.bg-red-fg {     background-color: #FF4136;      color: #800600; }
+.bg-fuchsia-fg { background-color: #F012BE;  color: #65064F; }
+.bg-purple-fg {  background-color: #B10DC9;   color: #EFA9F9; }
+.bg-maroon-fg {  background-color: #85144B;   color: #EB7AB1; }
+.bg-white-fg {   background-color: #FFFFFF;    color: #000000; }
+.bg-gray-fg {    background-color: #AAAAAA;     color: #000000; }
+.bg-silver-fg {  background-color: #DDDDDD;   color: #000000; }
+.bg-black-fg {   background-color: #111111;    color: #c0c0c0; }
+
+.fg-navy-bg {    color: #001F3F;     background-color: #80BFFF; }
+.fg-blue-bg {    color: #0074D9;     background-color: #B3DBFF; }
+.fg-aqua-bg {    color: #7FDBFF;     background-color: #004966; }
+.fg-teal-bg {    color: #39CCCC;     background-color: #000000; }
+.fg-olive-bg {   color: #3D9970;    background-color: #163728; }
+.fg-green-bg {   color: #2ECC40;    background-color: #0E3E14; }
+.fg-lime-bg {    color: #01FF70;     background-color: #00662C; }
+.fg-yellow-bg {  color: #FFDC00;   background-color: #665800; }
+.fg-orange-bg {  color: #FF851B;   background-color: #663000; }
+.fg-red-bg {     color: #FF4136;      background-color: #800600; }
+.fg-fuchsia-bg { color: #F012BE;  background-color: #65064F; }
+.fg-purple-bg {  color: #B10DC9;   background-color: #EFA9F9; }
+.fg-maroon-bg {  color: #85144B;   background-color: #EB7AB1; }
+.fg-white-bg {   color: #FFFFFF;    background-color: #000000; }
+.fg-gray-bg {    color: #AAAAAA;     background-color: #000000; }
+.fg-silver-bg {  color: #DDDDDD;   background-color: #000000; }
+.fg-black-bg {   color: #111111;    background-color: #c0c0c0; }
