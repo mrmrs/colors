@@ -19,3 +19,23 @@ Columns: 4
 170 170 170	Gray
 221 221 221	Silver
 255 255 255	White
+ 28  57 187 persianBlue
+ 50  18 122 persianIndigo
+  0 166 147 persianGreen
+ 94  39  80 aubergine
+ 29 161 242 twitter
+ 59  89 152 facebook
+  0 119 181 linkedin
+  0 175 240 skype
+ 65   0 147 yahoo
+255 153   0 amazon
+255   0   0 youtube
+234  67  53 google
+  0 123 255 primary
+108 117 125 secondary
+ 40 167  69 success
+ 23 162 184 info
+255 193   7 warning
+220  53  69 danger
+248 249 250 light
+ 52  58  64 dark

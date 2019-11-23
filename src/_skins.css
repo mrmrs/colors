@@ -1,12 +1,10 @@
 /*
-
    SKINS
    - Backgrounds
    - Colors
    - Border colors
    - SVG fills
    - SVG Strokes
-
 */
 
 
@@ -52,10 +50,9 @@
 .black {      color: var(--black); }
 
 
-/* Border colors 
-
-   Use with another border utility that sets border-width and style 
-   i.e .border { border-width: 1px); border-style: solid); }     
+/* Border colors
+   Use with another border utility that sets border-width and style
+   i.e .border { border-width: 1px); border-style: solid); }
 */
 
 .border--navy {    border-color: var(--navy); }
@@ -116,4 +113,3 @@
 .stroke-gray {    stroke: var(--gray); }
 .stroke-silver {  stroke: var(--silver); }
 .stroke-black {   stroke: var(--black); }
-
