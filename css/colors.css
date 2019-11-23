@@ -95,7 +95,7 @@
 /* Border colors
 
    Use with another border utility that sets border-width and style
-   i.e .border { border-width: 1px)!important; border-style: solid)!important; }
+   i.e .border { border-width: 1px !important}; {border-style: solid !important; }
 */
 .border-navy { border-color: #001F3F!important; }
 .border-blue { border-color: #0074D9!important; }
