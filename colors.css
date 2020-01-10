@@ -1,0 +1,162 @@
+/*
+   persianGreen
+   google
+   indigo
+   gray
+   aqua
+   twitter
+   blue
+   primary
+   yellow
+   danger
+   dark
+   navy
+   amazon
+   warning
+   facebook
+   linkedin
+   yahoo
+   gray-dark
+   olive
+   silver
+   maroon
+   secondary
+   info
+   teal2
+   skype
+   persianBlue
+   success
+   fuchsia
+   purple
+   light
+   persianIndigo
+   youtube
+   aubergine
+   green
+   teal
+   orange
+   black
+   white
+   lime
+   red
+*/
+.bg-persianGreen {background-color: #00A693 !important}
+.text-persianGreen {color: #00A693 !important}
+.border-persianGreen {border-color: #00A693 !important}
+.bg-google {background-color: #EA4335 !important}
+.text-google {color: #EA4335 !important}
+.border-google {border-color: #EA4335 !important}
+.bg-indigo {background-color: #6610f2 !important}
+.text-indigo {color: #6610f2 !important}
+.border-indigo {border-color: #6610f2 !important}
+.bg-gray {background-color: #AAAAAA !important}
+.text-gray {color: #AAAAAA !important}
+.border-gray {border-color: #AAAAAA !important}
+.bg-aqua {background-color: #7FDBFF !important}
+.text-aqua {color: #7FDBFF !important}
+.border-aqua {border-color: #7FDBFF !important}
+.bg-twitter {background-color: #1DA1F2 !important}
+.text-twitter {color: #1DA1F2 !important}
+.border-twitter {border-color: #1DA1F2 !important}
+.bg-blue {background-color: #0074D9 !important}
+.text-blue {color: #0074D9 !important}
+.border-blue {border-color: #0074D9 !important}
+.bg-primary {background-color: #007bff !important}
+.text-primary {color: #007bff !important}
+.border-primary {border-color: #007bff !important}
+.bg-yellow {background-color: #FFDC00 !important}
+.text-yellow {color: #FFDC00 !important}
+.border-yellow {border-color: #FFDC00 !important}
+.bg-danger {background-color: #dc3545 !important}
+.text-danger {color: #dc3545 !important}
+.border-danger {border-color: #dc3545 !important}
+.bg-dark {background-color: #343a40 !important}
+.text-dark {color: #343a40 !important}
+.border-dark {border-color: #343a40 !important}
+.bg-navy {background-color: #001F3F !important}
+.text-navy {color: #001F3F !important}
+.border-navy {border-color: #001F3F !important}
+.bg-amazon {background-color: #FF9900 !important}
+.text-amazon {color: #FF9900 !important}
+.border-amazon {border-color: #FF9900 !important}
+.bg-warning {background-color: #ffc107 !important}
+.text-warning {color: #ffc107 !important}
+.border-warning {border-color: #ffc107 !important}
+.bg-facebook {background-color: #3B5998 !important}
+.text-facebook {color: #3B5998 !important}
+.border-facebook {border-color: #3B5998 !important}
+.bg-linkedin {background-color: #0077B5 !important}
+.text-linkedin {color: #0077B5 !important}
+.border-linkedin {border-color: #0077B5 !important}
+.bg-yahoo {background-color: #410093 !important}
+.text-yahoo {color: #410093 !important}
+.border-yahoo {border-color: #410093 !important}
+.bg-gray-dark {background-color: #343a40 !important}
+.text-gray-dark {color: #343a40 !important}
+.border-gray-dark {border-color: #343a40 !important}
+.bg-olive {background-color: #3D9970 !important}
+.text-olive {color: #3D9970 !important}
+.border-olive {border-color: #3D9970 !important}
+.bg-silver {background-color: #DDDDDD !important}
+.text-silver {color: #DDDDDD !important}
+.border-silver {border-color: #DDDDDD !important}
+.bg-maroon {background-color: #85144B !important}
+.text-maroon {color: #85144B !important}
+.border-maroon {border-color: #85144B !important}
+.bg-secondary {background-color: #6c757d !important}
+.text-secondary {color: #6c757d !important}
+.border-secondary {border-color: #6c757d !important}
+.bg-info {background-color: #17a2b8 !important}
+.text-info {color: #17a2b8 !important}
+.border-info {border-color: #17a2b8 !important}
+.bg-teal2 {background-color: #39CCCC !important}
+.text-teal2 {color: #39CCCC !important}
+.border-teal2 {border-color: #39CCCC !important}
+.bg-skype {background-color: #00AFF0 !important}
+.text-skype {color: #00AFF0 !important}
+.border-skype {border-color: #00AFF0 !important}
+.bg-persianBlue {background-color: #1C39BB !important}
+.text-persianBlue {color: #1C39BB !important}
+.border-persianBlue {border-color: #1C39BB !important}
+.bg-success {background-color: #28a745 !important}
+.text-success {color: #28a745 !important}
+.border-success {border-color: #28a745 !important}
+.bg-fuchsia {background-color: #F012BE !important}
+.text-fuchsia {color: #F012BE !important}
+.border-fuchsia {border-color: #F012BE !important}
+.bg-purple {background-color: #B10DC9 !important}
+.text-purple {color: #B10DC9 !important}
+.border-purple {border-color: #B10DC9 !important}
+.bg-light {background-color: #f8f9fa !important}
+.text-light {color: #f8f9fa !important}
+.border-light {border-color: #f8f9fa !important}
+.bg-persianIndigo {background-color: #32127A !important}
+.text-persianIndigo {color: #32127A !important}
+.border-persianIndigo {border-color: #32127A !important}
+.bg-youtube {background-color: #FF0000 !important}
+.text-youtube {color: #FF0000 !important}
+.border-youtube {border-color: #FF0000 !important}
+.bg-aubergine {background-color: #5E2750 !important}
+.text-aubergine {color: #5E2750 !important}
+.border-aubergine {border-color: #5E2750 !important}
+.bg-green {background-color: #2ECC40 !important}
+.text-green {color: #2ECC40 !important}
+.border-green {border-color: #2ECC40 !important}
+.bg-teal {background-color: #20c997 !important}
+.text-teal {color: #20c997 !important}
+.border-teal {border-color: #20c997 !important}
+.bg-orange {background-color: #FF851B !important}
+.text-orange {color: #FF851B !important}
+.border-orange {border-color: #FF851B !important}
+.bg-black {background-color: #111111 !important}
+.text-black {color: #111111 !important}
+.border-black {border-color: #111111 !important}
+.bg-white {background-color: #fff !important}
+.text-white {color: #fff !important}
+.border-white {border-color: #fff !important}
+.bg-lime {background-color: #01FF70 !important}
+.text-lime {color: #01FF70 !important}
+.border-lime {border-color: #01FF70 !important}
+.bg-red {background-color: #FF4136 !important}
+.text-red {color: #FF4136 !important}
+.border-red {border-color: #FF4136 !important}
