@@ -120,17 +120,16 @@
 
 /* Foregrounds */
 
-
-.navy-fg{     color: var(--navyfg);}
-.blue-fg{     color: var(--bluefg);}
-.aqua-fg{     color: var(--aquafg);}
-.teal-fg{     color: var(--tealfg);}
-.olive-fg{    color: var(--olivefg);}
-.green-fg{    color: var(--greenfg);}
-.lime-fg{     color: var(--limefg);}
-.yellow-fg{   color: var(--yellowfg);}
-.orange-fg{   color: var(--orangefg);}
-.red-fg{      color: var(--redfg);}
-.fuchsia-fg{  color: var(--fuchsiafg);}
-.purple-fg{   color: var(--purplefg);}
-.maroon-fg{   color: var(--maroonfg);}
+.navy-fg {     color: var(--navyfg);}
+.blue-fg {     color: var(--bluefg);}
+.aqua-fg {     color: var(--aquafg);}
+.teal-fg {     color: var(--tealfg);}
+.olive-fg {    color: var(--olivefg);}
+.green-fg {    color: var(--greenfg);}
+.lime-fg {     color: var(--limefg);}
+.yellow-fg {   color: var(--yellowfg);}
+.orange-fg {   color: var(--orangefg);}
+.red-fg {      color: var(--redfg);}
+.fuchsia-fg {  color: var(--fuchsiafg);}
+.purple-fg {   color: var(--purplefg);}
+.maroon-fg {   color: var(--maroonfg);}
