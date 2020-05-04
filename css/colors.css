@@ -25,7 +25,7 @@
 */
 /* Backgrounds */
 .bg-navy { background-color: #001F3F; }
-.bg-blue { background-color: #0074D9; }
+.bg-blue { background-color: #3498db; }
 .bg-aqua { background-color: #7FDBFF; }
 .bg-teal { background-color: #39CCCC; }
 .bg-olive { background-color: #3D9970; }
@@ -43,7 +43,7 @@
 .bg-black { background-color: #111111; }
 /* Colors */
 .navy { color: #001F3F; }
-.blue { color: #0074D9; }
+.blue { color: #3498db; }
 .aqua { color: #7FDBFF; }
 .teal { color: #39CCCC; }
 .olive { color: #3D9970; }
@@ -65,7 +65,7 @@
    i.e .border { border-width: 1px); border-style: solid); }     
 */
 .border--navy { border-color: #001F3F; }
-.border--blue { border-color: #0074D9; }
+.border--blue { border-color: #3498db; }
 .border--aqua { border-color: #7FDBFF; }
 .border--teal { border-color: #39CCCC; }
 .border--olive { border-color: #3D9970; }
@@ -83,7 +83,7 @@
 .border--black { border-color: #111111; }
 /* Fills for SVG */
 .fill-navy { fill: #001F3F; }
-.fill-blue { fill: #0074D9; }
+.fill-blue { fill: #3498db; }
 .fill-aqua { fill: #7FDBFF; }
 .fill-teal { fill: #39CCCC; }
 .fill-olive { fill: #3D9970; }
@@ -101,7 +101,7 @@
 .fill-black { fill: #111111; }
 /* Strokes for SVG */
 .stroke-navy { stroke: #001F3F; }
-.stroke-blue { stroke: #0074D9; }
+.stroke-blue { stroke: #3498db; }
 .stroke-aqua { stroke: #7FDBFF; }
 .stroke-teal { stroke: #39CCCC; }
 .stroke-olive { stroke: #3D9970; }
