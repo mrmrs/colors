@@ -12,6 +12,7 @@
     <style>
       body, html { font-family: -apple-system,  'avenir next', avenir, roboto, noto, ubuntu, 'helvetica neue', helvetica, arial, sans-serif; }
       .flex {display: flex; align-items: center; }
+      .flex-grow { flex-grow: 1; }
     </style>
   </head>
   <body class="bg-blue">
@@ -20,174 +21,139 @@
       <h2 class="tc f5 f5-ns lh-copy mvn">A nicer color palette for the web.</h2>
     </header>
     <main class="bg-white">
-      <section class="pvl cf w-100">
-        <header class="pvl fl w-100 phm">
+      <section class="pvl  w-100">
+        <header class="pvl w-100 phm">
           <h1 class="f4 f1-ns tc man lh-title">The New Defaults</h1>
           <p class="f5 f3-ns lh-copy tc" style="margin-right: auto; margin-left: auto;max-width: 32em">
             Skinning your prototypes just got easier - colors.css is a collection of skin classes to use while prototyping in the browser.
             <small class="db mtm fw-400"><b>647B</b> minified and gzipped.</small>
           </p>
         </header>
-        <div class="center mtn phm" style="max-width: 64em;">
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-navy db pam pal-ns"
+        <section class="center mtn phm flex" style="max-width: 64em;flex-wrap: nowrap">
+          <div class="w-100 bg-navy db pam pal-ns"
                style="color:hsla(210, 100%, 75%, 1.0);">
             <span class="small title db" style="font-weight:bold">Navy</span>
             <code class="">#001f3f</code>
           </div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-blue db pam pal-ns"
+          <div class="w-100 bg-blue db pam pal-ns"
                style="color:hsla(208, 100%, 85%, 1.0)">
             <span class="small title db" style="font-weight:bold">Blue</span>
             <code>#0074D9</code>
           </div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-aqua db pam pal-ns"
+          <div class="w-100 bg-aqua db pam pal-ns"
                style="color:hsla(197, 100%, 20%, 1.0)">
             <span class="small title db" style="font-weight:bold">Aqua</span>
             <code>#7FDBFF</code>
           </div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-teal db pam pal-ns">
+          <div class="w-100 bg-teal db pam pal-ns">
             <span class="small title db" style="font-weight: bold;">TEAL</span>
             <code>#39CCCC</code>
           </div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-olive db pam pal-ns" style="color:hsla(153, 43%, 15%, 1.0)">
+        </section>
+        <section class='center phm flex' style='max-width: 64em;'>
+          <div class="w-100 bg-purple db pam pal-ns" style="color:hsla(292, 88%, 82%, 1.0)">
+            <span class="small title db" style="font-weight:bold;">PURPLE</span>
+            <code>#B10DC9 </code>
+          </div>
+          <div class="w-100 bg-fuchsia db pam pal-ns" style="color:hsla(314, 88%, 21%, 1.0)">
+            <span class="small title db" style="font-weight:bold;">FUCHSIA</span>
+            <code>#F012BE </code>
+          </div>
+          <div class="w-100 bg-maroon db pam pal-ns" style="color:hsla(331, 74%, 70%, 1.0)">
+            <span class="small title db" style="font-weight:bold">MAROON</span>
+            <code>#85144b </code>
+          </div>
+        </section>
+        <section class='center phm flex' style='max-width: 64em;'>
+          <div class="w-100 bg-red db pam pal-ns" style="color: hsla(3, 100%, 25%, 1.0)">
+            <span class="small title db" style="font-weight:bold;">RED</span>
+            <code>#FF4136 </code>
+          </div>
+          <div class="w-100 bg-orange db pam pal-ns" style="color:hsla(28, 100%, 20%, 1.0)">
+            <span class="small title db" style="font-weight:bold;">ORANGE</span>
+            <code>#FF851B </code>
+          </div>
+          <div class="w-100 bg-yellow db pam pal-ns" style="color:hsla(52, 100%, 20%, 1.0)">
+            <span class="small title db" style="font-weight: bold;">YELLOW</span>
+            <code>#FFDC00 </code>
+          </div>
+        </section>
+        <section class='center phm flex' style='max-width: 64em;'>
+          <div class="w-100 bg-olive db pam pal-ns" style="color:hsla(153, 43%, 15%, 1.0)">
             <span class="small title db" style="font-weight: bold;">
               OLIVE
             </span>
             <code>#3D9970 </code>
-
           </div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-green db pam pal-ns" style="color:hsla(127, 63%, 15%, 1.0)">
+          <div class="w-100 bg-green db pam pal-ns" style="color:hsla(127, 63%, 15%, 1.0)">
             <span class="small title db" style="font-weight: bold;">GREEN</span>
             <code>#2ECC40 </code>
           </div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-lime db pam pal-ns" style="color:hsla(146, 100%, 20%, 1.0)">
-          <span class="small title db" style="font-weight: bold;">LIME</span>
-          <code>#01FF70 </code>
-</div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-yellow db pam pal-ns" style="color:hsla(52, 100%, 20%, 1.0)">
-          <span class="small title db" style="font-weight: bold;">YELLOW</span>
-          <code>#FFDC00 </code>
+          <div class="w-100 bg-lime db pam pal-ns" style="color:hsla(146, 100%, 20%, 1.0)">
+            <span class="small title db" style="font-weight: bold;">LIME</span>
+            <code>#01FF70 </code>
           </div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-orange db pam pal-ns" style="color:hsla(28, 100%, 20%, 1.0)">
-            <span class="small title db" style="font-weight:bold;">ORANGE</span>
-            <code>#FF851B </code>
-          </div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-red db pam pal-ns" style="color: hsla(3, 100%, 25%, 1.0)">
-          <span class="small title db" style="font-weight:bold;">RED</span>
-          <code>#FF4136 </code>
-</div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-maroon db pam pal-ns" style="color:hsla(331, 74%, 70%, 1.0)">
-          <span class="small title db" style="font-weight:bold">MAROON</span>
-          <code>#85144b </code>
-</div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-fuchsia db pam pal-ns" style="color:hsla(314, 88%, 21%, 1.0)">
-          <span class="small title db" style="font-weight:bold;">FUCHSIA</span>
-          <code>#F012BE </code>
-</div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-purple db pam pal-ns" style="color:hsla(292, 88%, 82%, 1.0)">
-          <span class="small title db" style="font-weight:bold;">PURPLE</span>
-          <code>#B10DC9 </code>
-</div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-black db pam pal-ns w-100 silver">
+        </section>
+        <section class='center phm flex' style='max-width: 64em;'>
+          <div class="w-100 bg-black db pam pal-ns w-100 silver">
             <span class="small title db" style="font-weight: bold">BLACK</span>
             <code>#111111 </code>
           </div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-gray db pam pal-ns">
-          <span class="small title db" style="font-weight: bold;">GRAY</span>
-          <code>#AAAAAA </code>
-        </div>
-        </div>
-        <div class="w-50 w-25-m w-12-5-l fl">
-          <div class="fl w-100 bg-silver db pam pal-ns">
+          <div class="w-100 bg-gray db pam pal-ns">
+            <span class="small title db" style="font-weight: bold;">GRAY</span>
+            <code>#AAAAAA </code>
+          </div>
+          <div class="w-100 bg-silver db pam pal-ns">
             <span class="small title db" style="font-weight:bold;">SILVER</span>
             <code>#DDDDDD </code>
           </div>
-        </div>
-        <div class="w-100 tc fl pbxs mts-ns">
-            <div class="fl w-100 bg-white db pvm pvl-ns" style="color:#444;outline:1px solid #ccc;">
-            <h1 class="mtn mts-ns fl w-100 f6 mbn title">WHITE</h1>
-            <code class="tc db">#FFFFFF </code>
-
-</div>
+          <div class="w-100 bg-white db pam pal-ns" style="box-shadow: inset 0 0 0 1px rgba(0,0,0,.1);">
+            <span class="small title db" style="font-weight:bold;">WHITE</span>
+            <code>#FFFFFF </code>
+          </div>
+        </section>
         </div>
       </div>
       </section>
-      <section class="cf pbl phm center" style="max-width:64em;">
-<div class="fl w-100" style="background-color: #f9f9f9;border-radius:4px;border:1px solid #f0f0f0;">
-          <header class="phm ptl pvx-ns fl w-100 w-40-ns">
+      <section class='tc'>
+        <a href='https://components.ai/theme/DIgsnuGL20I1ZwsNP3YY'
+           style='
+            background: #001f3f;
+            color: #7fdbff;
+            padding: 16px 24px;
+            border-radius: 5px;
+           '
+          >Create your own defaults</a>
+      </section>
+      <section class="pbl phm center" style="max-width:64em;">
+<div class="w-100">
+          <header class="phm ptl pvx-ns w-100">
             <h1 class="f4 f2-ns tc lh-title">The Old Defaults</h1>
             <h2 class="tc f6 f3-ns man lh-title dn-ns">For comparison</h2>
           </header>
-        <div class="phm pln-ns pbl ptl pvx-ns fl w-100 w-60-ns">
-        <div class="w-25 w-12-5-l db fl default-navy paxs pas-ns white">
-          <h1 class="dib db-ns man f6">Navy</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-blue  white">
-          <h1 class="dib db-ns man f6">Blue</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-aqua ">
-          <h1 class="dib db-ns man f6">Aqua</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-teal ">
-          <h1 class="dib db-ns man f6">Teal</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-olive ">
-          <h1 class="dib db-ns man f6">Olive</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-green ">
-          <h1 class="dib db-ns man f6">Green</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-lime ">
-          <h1 class="dib db-ns man f6">Lime</h1>
-          </div>
-          <div class="w-25 w-12-5-l  paxs pas-ns db fl default-yellow ">
-          <h1 class="dib db-ns man f6">Yellow</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-orange ">
-          <h1 class="dib db-ns man f6">Orange</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-red ">
-          <h1 class="dib db-ns man f6">Red</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-maroon white ">
-          <h1 class="dib db-ns man f6">Maroon</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-fuchsia ">
-          <h1 class="dib db-ns man f6">Fuchsia</h1>
-          </div><div class="w-25 w-12-5-l  paxs pas-ns db fl default-purple  white">
-          <h1 class="dib db-ns man f6">Purple</h1>
-          </div>
-          <div class="w-25 w-12-5-l  paxs pas-ns db fl default-silver ">
-            <h1 class="dib db-ns man f6">Silver</h1>
-          </div>
-          <div class="w-25 w-12-5-l  paxs pas-ns db fl default-gray ">
-            <h1 class="dib db-ns man f6">Gray</h1>
-          </div>
-          <div class="w-25 w-12-5-l paxs pas-ns db fl default-black white">
-            <h1 class="dib db-ns man f6">Black</h1>
-          </div>
+        <div class="flex phm pln-ns pbl w-100" style='flex-wrap: wrap'>
+          <div class="flex-grow paxs pam-ns default-navy white"> <h4 class="man f6">Navy</h4></div>
+          <div class="flex-grow paxs pam-ns db default-blue  white"> <h4 class="man f6">Blue</h4></div>
+          <div class="flex-grow paxs pam-ns db default-aqua "> <h4 class="man f6">Aqua</h4></div>
+          <div class="flex-grow paxs pam-ns db default-teal "> <h4 class="man f6">Teal</h4> </div>
+          <div class="flex-grow paxs pam-ns db default-olive "> <h4 class="man f6">Olive</h4> </div>
+          <div class="flex-grow paxs pam-ns db default-green "> <h4 class="man f6">Green</h4> </div>
+          <div class="flex-grow paxs pam-ns db default-lime "> <h4 class="man f6">Lime</h4> </div>
+          <div class="flex-grow paxs pam-ns db default-yellow "> <h4 class="man f6">Yellow</h4> </div>
+          <div class="flex-grow paxs pam-ns db default-orange "> <h4 class="man f6">Orange</h4> </div>
+          <div class="flex-grow paxs pam-ns db default-red "> <h4 class="man f6">Red</h4> </div>
+          <div class="flex-grow paxs pam-ns db default-maroon white "> <h4 class="man f6">Maroon</h4> </div>
+          <div class="flex-grow paxs pam-ns db default-fuchsia "> <h4 class="man f6">Fuchsia</h4> </div>
+          <div class="flex-grow paxs pam-ns db default-purple  white"> <h4 class="man f6">Purple</h4> </div>
+          <div class="flex-grow w-25 paxs pam-ns db default-silver "> <h4 class="man f6">Silver</h4> </div>
+          <div class="flex-grow w-25 paxs pam-ns db default-gray "> <h4 class="man f6">Gray</h4> </div>
+          <div class="flex-grow w-25 paxs pam-ns db default-white black"> <h4 class="man f6">White</h4> </div>
+          <div class="flex-grow w-25 paxs pam-ns db default-black white"> <h4 class="man f6">Black</h4> </div>
         </div>
 </div>
       </section>
       <section class="phm pvl pvx-ns" style="border-top:1px dotted #ccc;">
+        
         <div class="center cf" style="max-width: 64em;">
           <h1 class="f2 f1-ns phs man title"><a href="#utilities" class="black">
 Utilities</a></h1>
@@ -199,15 +165,15 @@ Utilities</a></h1>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--blue blue">Blue</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--aqua aqua">Aqua</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--teal teal">Teal</div></div>
+          <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--purple purple">Purple</div></div>
+          <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--fuchsia fuchsia">Fuchsia</div></div>
+          <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--maroon maroon">Maroon</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--olive olive">Olive</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--green green">Green</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--lime lime">Lime</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--yellow yellow">Yellow</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--orange orange">Orange</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--red red">Red</div></div>
-          <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--maroon maroon">Maroon</div></div>
-          <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--fuchsia fuchsia">Fuchsia</div></div>
-          <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--purple purple">Purple</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--black black">Black</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--silver silver">Silver</div></div>
           <div class="fl w-25 pas"><div class="small f4-ns mbs paxs pas-ns border border--gray gray">Gray</div></div>
