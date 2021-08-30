@@ -180,6 +180,23 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .stroke-black { stroke: #111111; }
 ```
 
+### More Open Source Color Systems
+
+- [LCH - Natural](https://components.ai/theme/LSFBhQYkSnSDqZ1qzJjN)
+- [LCH - B-Spline](https://components.ai/theme/eVFeV340xXtXCv4Ne3Wx)
+- [LCH - Linear](https://components.ai/theme/XIM7Jo6uxkBEgnfbqrxK)
+- [LCH - Monotone](https://components.ai/theme/5t1N11PUhqqsxmLudFpY)
+- [LAB - Natural](https://components.ai/theme/A2zudJ4qzc4bLoUVBAZ3)
+- [LAB - B-Spline](https://components.ai/theme/N9DlRkNZZagzZJTDi4Wr)
+- [LAB - Linear](https://components.ai/theme/Jg0GRCvBLm6RbjeOCzLs)
+- [LAB - Monotone](https://components.ai/theme/LZ23GsXttzH7Q3Y0OIHM)
+- [RGB - Natural](https://components.ai/theme/K4C98oSFrgkCLOoQhXbJ)
+- [RGB - B-Spline](https://components.ai/theme/IDL04FzjDpCEOg5NiW6i)
+- [RGB - Linear](https://components.ai/theme/eab3gpmHglpIYDIUEYcl)
+- [RGB - Monotone](https://components.ai/theme/3RD5FJ1wOaGAjmV2WE2j)
+
+
+
 ## Contributing
 
 1. Fork it
