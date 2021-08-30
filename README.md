@@ -3,6 +3,8 @@
 
 Better default colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.
 
+[Customize your own defaults here.](https://components.ai/theme/DIgsnuGL20I1ZwsNP3YY)
+
 #### Stats
 
 903 | 85 | 85
