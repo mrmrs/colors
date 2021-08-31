@@ -1,0 +1,24 @@
+{
+  "name": "color_less",
+  "version": "1.0.0",
+  "description": "A LESS implementation of a new web default for colors",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [
+    "colors",
+    "default",
+    "less",
+    "minify"
+  ],
+  "author": "Srivats Shankar",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^1.4.0"
+  }
+}
