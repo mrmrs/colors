@@ -117,3 +117,40 @@
 .stroke-silver {  stroke: var(--silver); }
 .stroke-black {   stroke: var(--black); }
 
+
+/* Contrast Background and Foreground*/
+.bg-navy-fg {    background-color: var(--navy);     color: var(--navy-); }
+.bg-blue-fg {    background-color: var(--blue);     color: var(--blue-); }
+.bg-aqua-fg {    background-color: var(--aqua);     color: var(--aqua-); }
+.bg-teal-fg {    background-color: var(--teal);     color: var(--teal-); }
+.bg-olive-fg {   background-color: var(--olive);    color: var(--olive-); }
+.bg-green-fg {   background-color: var(--green);    color: var(--green-); }
+.bg-lime-fg {    background-color: var(--lime);     color: var(--lime-); }
+.bg-yellow-fg {  background-color: var(--yellow);   color: var(--yellow-); }
+.bg-orange-fg {  background-color: var(--orange);   color: var(--orange-); }
+.bg-red-fg {     background-color: var(--red);      color: var(--red-); }
+.bg-fuchsia-fg { background-color: var(--fuchsia);  color: var(--fuchsia-); }
+.bg-purple-fg {  background-color: var(--purple);   color: var(--purple-); }
+.bg-maroon-fg {  background-color: var(--maroon);   color: var(--maroon-); }
+.bg-white-fg {   background-color: var(--white);    color: var(--white-); }
+.bg-gray-fg {    background-color: var(--gray);     color: var(--gray-); }
+.bg-silver-fg {  background-color: var(--silver);   color: var(--silver-); }
+.bg-black-fg {   background-color: var(--black);    color: var(--black-); }
+
+.fg-navy-bg {    color: var(--navy);     background-color: var(--navy-); }
+.fg-blue-bg {    color: var(--blue);     background-color: var(--blue-); }
+.fg-aqua-bg {    color: var(--aqua);     background-color: var(--aqua-); }
+.fg-teal-bg {    color: var(--teal);     background-color: var(--teal-); }
+.fg-olive-bg {   color: var(--olive);    background-color: var(--olive-); }
+.fg-green-bg {   color: var(--green);    background-color: var(--green-); }
+.fg-lime-bg {    color: var(--lime);     background-color: var(--lime-); }
+.fg-yellow-bg {  color: var(--yellow);   background-color: var(--yellow-); }
+.fg-orange-bg {  color: var(--orange);   background-color: var(--orange-); }
+.fg-red-bg {     color: var(--red);      background-color: var(--red-); }
+.fg-fuchsia-bg { color: var(--fuchsia);  background-color: var(--fuchsia-); }
+.fg-purple-bg {  color: var(--purple);   background-color: var(--purple-); }
+.fg-maroon-bg {  color: var(--maroon);   background-color: var(--maroon-); }
+.fg-white-bg {   color: var(--white);    background-color: var(--white-); }
+.fg-gray-bg {    color: var(--gray);     background-color: var(--gray-); }
+.fg-silver-bg {  color: var(--silver);   background-color: var(--silver-); }
+.fg-black-bg {   color: var(--black);    background-color: var(--black-); }
