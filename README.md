@@ -212,5 +212,5 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 ## License
 
-MIT
+colors.css is licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
